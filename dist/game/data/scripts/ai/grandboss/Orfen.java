@@ -40,6 +40,7 @@ import l2r.gameserver.model.zone.type.L2BossZone;
 import l2r.gameserver.network.NpcStringId;
 import l2r.gameserver.network.clientpackets.Say2;
 import l2r.gameserver.network.serverpackets.NpcSay;
+import l2r.gameserver.util.Util;
 
 import ai.npc.AbstractNpcAI;
 
@@ -208,9 +209,8 @@ public final class Orfen extends AbstractNpcAI
 		}
 		else if (event.equalsIgnoreCase("check_minion_loc"))
 		{
-			for (int i = 0; i < MINIONS.size(); i++)
+			for (L2Attackable mob : MINIONS)
 			{
-				L2Attackable mob = MINIONS.get(i);
 				if (!npc.isInsideRadius(mob, 3000, false, false))
 				{
 					mob.teleToLocation(npc.getLocation());
@@ -221,9 +221,8 @@ public final class Orfen extends AbstractNpcAI
 		}
 		else if (event.equalsIgnoreCase("despawn_minions"))
 		{
-			for (int i = 0; i < MINIONS.size(); i++)
+			for (L2Attackable mob : MINIONS)
 			{
-				L2Attackable mob = MINIONS.get(i);
 				if (mob != null)
 				{
 					mob.decayMe();
@@ -327,6 +326,35 @@ public final class Orfen extends AbstractNpcAI
 	{
 		if (npc.getId() == ORFEN)
 		{
+			
+			if (killer.isInParty())
+			{
+				if (killer.getParty().isInCommandChannel())
+				{
+					for (L2PcInstance member : killer.getParty().getCommandChannel().getMembers())
+					{
+						if (Util.checkIfInRange(1800, killer, member, true))
+						{
+							member.getCounters().onOrfenKill();
+						}
+					}
+				}
+				else
+				{
+					for (L2PcInstance member : killer.getParty().getMembers())
+					{
+						if (Util.checkIfInRange(1800, killer, member, true))
+						{
+							member.getCounters().onOrfenKill();
+						}
+					}
+				}
+			}
+			else
+			{
+				killer.getCounters().onOrfenKill();
+			}
+			
 			npc.broadcastPacket(Music.BS02_D_7000.getPacket());
 			GrandBossManager.getInstance().setBossStatus(ORFEN, DEAD);
 			// Calculate Min and Max respawn times randomly.

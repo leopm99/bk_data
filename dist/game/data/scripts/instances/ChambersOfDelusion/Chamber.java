@@ -350,7 +350,7 @@ public abstract class Chamber extends AbstractInstance
 		}
 		else
 		{
-			world.scheduleRoomChange(false);
+			world.scheduleRoomChange(true);
 		}
 	}
 	
@@ -593,7 +593,7 @@ public abstract class Chamber extends AbstractInstance
 				markRestriction(world); // Set reenter restriction
 				if ((inst.getInstanceEndTime() - System.currentTimeMillis()) > 300000)
 				{
-					inst.setDuration(300000); // Finish instance in 5 minutes
+					inst.setDuration(120000); // Finish instance in 2 minutes
 				}
 			}
 			else

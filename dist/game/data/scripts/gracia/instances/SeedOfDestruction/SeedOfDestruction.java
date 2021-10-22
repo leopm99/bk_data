@@ -954,6 +954,35 @@ public final class SeedOfDestruction extends AbstractNpcAI implements IXmlReader
 			{
 				if (npc.getId() == TIAT)
 				{
+					
+					if (player.isInParty())
+					{
+						if (player.getParty().isInCommandChannel())
+						{
+							for (L2PcInstance member : player.getParty().getCommandChannel().getMembers())
+							{
+								if (Util.checkIfInRange(1800, player, member, true))
+								{
+									member.getCounters().onTiatKill();
+								}
+							}
+						}
+						else
+						{
+							for (L2PcInstance member : player.getParty().getMembers())
+							{
+								if (Util.checkIfInRange(1800, player, member, true))
+								{
+									member.getCounters().onTiatKill();
+								}
+							}
+						}
+					}
+					else
+					{
+						player.getCounters().onTiatKill();
+					}
+					
 					world.incStatus();
 					for (int objId : world.getAllowed())
 					{

@@ -32,6 +32,7 @@ import l2r.gameserver.model.actor.instance.L2PcInstance;
 import l2r.gameserver.network.NpcStringId;
 import l2r.gameserver.network.clientpackets.Say2;
 import l2r.gameserver.network.serverpackets.NpcSay;
+import l2r.gameserver.util.Util;
 
 import ai.npc.AbstractNpcAI;
 
@@ -188,6 +189,35 @@ public final class Core extends AbstractNpcAI
 	{
 		if (npc.getId() == CORE)
 		{
+			
+			if (killer.isInParty())
+			{
+				if (killer.getParty().isInCommandChannel())
+				{
+					for (L2PcInstance member : killer.getParty().getCommandChannel().getMembers())
+					{
+						if (Util.checkIfInRange(1800, killer, member, true))
+						{
+							member.getCounters().onCoreKill();
+						}
+					}
+				}
+				else
+				{
+					for (L2PcInstance member : killer.getParty().getMembers())
+					{
+						if (Util.checkIfInRange(1800, killer, member, true))
+						{
+							member.getCounters().onCoreKill();
+						}
+					}
+				}
+			}
+			else
+			{
+				killer.getCounters().onCoreKill();
+			}
+			
 			int objId = npc.getObjectId();
 			npc.broadcastPacket(Music.BS02_D_10000.getPacket());
 			npc.broadcastPacket(new NpcSay(objId, Say2.NPC_ALL, npc.getId(), NpcStringId.A_FATAL_ERROR_HAS_OCCURRED));

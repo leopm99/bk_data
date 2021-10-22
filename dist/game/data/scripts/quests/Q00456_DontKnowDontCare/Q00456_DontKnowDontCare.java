@@ -62,7 +62,7 @@ public final class Q00456_DontKnowDontCare extends Quest
 	private static final int BEHEMOTH_LEADER_ESSENCE = 17252;
 	private static final int DRAGON_BEAST_ESSENCE = 17253;
 	// Misc
-	private static final int MIN_PLAYERS = 18;
+	private static final int MIN_PLAYERS = 4;
 	private static final int MIN_LEVEL = 80;
 	private static final Map<Integer, Integer> MONSTER_NPCS = new HashMap<>();
 	private static final Map<Integer, Integer> MONSTER_ESSENCES = new HashMap<>();
@@ -234,11 +234,11 @@ public final class Q00456_DontKnowDontCare extends Quest
 						{
 							if (hasQuestItems(player, getRegisteredItemIds()))
 							{
-								if (Rnd.chance(5))
+								if (Rnd.chance(50))
 								{
 									qs.giveItems(WEAPONS[Rnd.get(WEAPONS.length)], 1);
 								}
-								else if (Rnd.chance(10))
+								else if (Rnd.chance(70))
 								{
 									qs.giveItems(ARMOR[Rnd.get(ARMOR.length)], 1);
 								}
@@ -247,16 +247,16 @@ public final class Q00456_DontKnowDontCare extends Quest
 									qs.giveItems(ACCESSORIES[Rnd.get(ACCESSORIES.length)], 1);
 								}
 								
-								if (Rnd.chance(15))
+								if (Rnd.chance(90))
 								{
 									qs.giveItems(SCROLLS[Rnd.get(SCROLLS.length)], 1);
 								}
 								
 								if (Rnd.chance(70))
 								{
-									qs.giveItems(ATTRIBUTE_CRYSTALS[Rnd.get(ATTRIBUTE_CRYSTALS.length)], 1);
+									qs.giveItems(ATTRIBUTE_CRYSTALS[Rnd.get(ATTRIBUTE_CRYSTALS.length)], 3);
 								}
-								qs.giveItems(GEMSTONE_S, 3);
+								qs.giveItems(GEMSTONE_S, 200);
 								
 								// rewardPlayer(player, npc);
 								qs.exitQuest(QuestType.DAILY, true);
@@ -333,9 +333,9 @@ public final class Q00456_DontKnowDontCare extends Quest
 			L2PcInstance attacker = aggro.getAttacker().getActingPlayer();
 			
 			if (attacker.isInParty() //
-			&& attacker.getParty().isInCommandChannel() //
-			&& attacker.getParty().getCommandChannel().equals(cc) // only players from the same cc are allowed
-			&& Util.checkIfInRange(1500, npc, attacker, true))
+				&& attacker.getParty().isInCommandChannel() //
+				&& attacker.getParty().getCommandChannel().equals(cc) // only players from the same cc are allowed
+				&& Util.checkIfInRange(9500, npc, attacker, true))
 			{
 				allowedPlayers.add(attacker.getObjectId());
 			}
@@ -346,7 +346,7 @@ public final class Q00456_DontKnowDontCare extends Quest
 			// This depends on the boss respawn delay being at least 5 minutes.
 			final L2Npc spawned = addSpawn(MONSTER_NPCS.get(npc.getId()), npc, true, 0);
 			allowedPlayerMap.put(spawned.getObjectId(), allowedPlayers);
-			startQuestTimer("unspawnRaidCorpse", 300000, spawned, null);
+			startQuestTimer("unspawnRaidCorpse", 600000, spawned, null);
 		}
 		
 		return super.onKill(npc, killer, isSummon);

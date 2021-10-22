@@ -123,6 +123,11 @@ public class Mdam implements ISkillHandler
 					target.notifyDamageReceived(damage, activeChar, skill, mcrit, false, false);
 				}
 				
+				if (mcrit && activeChar.isPlayer())
+				{
+					activeChar.getActingPlayer().getCounters().onMCHit();
+				}
+				
 				// Logging damage
 				if (Config.LOG_GAME_DAMAGE && activeChar.isPlayable() && (damage > Config.LOG_GAME_DAMAGE_THRESHOLD))
 				{

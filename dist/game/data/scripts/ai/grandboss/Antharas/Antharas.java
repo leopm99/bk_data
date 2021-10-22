@@ -698,6 +698,36 @@ public final class Antharas extends AbstractNpcAI
 		{
 			if (npc.getId() == ANTHARAS)
 			{
+				
+				if (killer.isInParty())
+				{
+					if (killer.getParty().isInCommandChannel())
+					{
+						for (L2PcInstance member : killer.getParty().getCommandChannel().getMembers())
+						{
+							if (Util.checkIfInRange(1800, killer, member, true))
+							{
+								member.getCounters().onAntharasKill();
+							}
+						}
+					}
+					else
+					{
+						for (L2PcInstance member : killer.getParty().getMembers())
+						{
+							if (Util.checkIfInRange(1800, killer, member, true))
+							{
+								member.getCounters().onAntharasKill();
+							}
+						}
+					}
+				}
+				else
+				{
+					killer.getCounters().onAntharasKill();
+					
+				}
+				
 				_antharas = null;
 				notifyEvent("DESPAWN_MINIONS", null, null);
 				zone.broadcastPacket(new SpecialCamera(npc, 1200, 20, -10, 0, 10000, 13000, 0, 0, 0, 0, 0));
@@ -752,7 +782,7 @@ public final class Antharas extends AbstractNpcAI
 			}
 			catch (Exception e)
 			{
-			
+				
 			}
 		}
 		return super.onSpawn(npc);

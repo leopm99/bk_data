@@ -179,6 +179,12 @@ public class SignetMDam extends L2Effect
 					}
 					activeChar.sendDamageMessage(target, mdam, mcrit, false, false);
 					target.reduceCurrentHp(mdam, activeChar, getSkill());
+					
+					if (mcrit && activeChar.isPlayer())
+					{
+						activeChar.getActingPlayer().getCounters().onMCHit();
+					}
+					
 				}
 				target.getAI().notifyEvent(CtrlEvent.EVT_ATTACKED, activeChar);
 			}

@@ -43,7 +43,7 @@ import l2r.gameserver.model.actor.instance.L2QuestGuardInstance;
 import l2r.gameserver.model.actor.instance.L2RaidBossInstance;
 import l2r.gameserver.model.holders.SkillHolder;
 import l2r.gameserver.model.instancezone.InstanceWorld;
-import l2r.gameserver.model.quest.QuestState;
+//import l2r.gameserver.model.quest.QuestState;
 import l2r.gameserver.model.skills.L2Skill;
 import l2r.gameserver.model.variables.NpcVariables;
 import l2r.gameserver.network.NpcStringId;
@@ -60,7 +60,7 @@ import l2r.gameserver.util.Util;
 import l2r.util.Rnd;
 
 import instances.AbstractInstance;
-import quests.Q10286_ReunionWithSirra.Q10286_ReunionWithSirra;
+//import quests.Q10286_ReunionWithSirra.Q10286_ReunionWithSirra;
 
 /**
  * Ice Queen's Castle (Ultimate Battle) instance zone.
@@ -134,7 +134,7 @@ public final class IceQueensCastleUltimateBattle extends AbstractInstance
 		new Location(114024, -112278, -11210),
 		new Location(113865, -112435, -11210),
 		new Location(113865, -112276, -11210),
-		
+	
 	};
 	private static final Location[] STATUES_LOC =
 	{
@@ -298,9 +298,9 @@ public final class IceQueensCastleUltimateBattle extends AbstractInstance
 						notifyEvent("START_SPAWN", world.controller, null);
 						manageScreenMsg(world, NpcStringId.BEGIN_STAGE_2_FREYA);
 						
-						startQuestTimer("STAGE_2_FAILED", 360000, world.controller, null);
-						manageTimer(world, 360, NpcStringId.BATTLE_END_LIMIT_TIME);
-						world.controller.getVariables().set("TIMER_END", System.currentTimeMillis() + 360000);
+						startQuestTimer("STAGE_2_FAILED", 1800000, world.controller, null);
+						manageTimer(world, 1800, NpcStringId.BATTLE_END_LIMIT_TIME);
+						world.controller.getVariables().set("TIMER_END", System.currentTimeMillis() + 1800000);
 						break;
 					}
 					case "STAGE_2_FAILED":
@@ -619,7 +619,7 @@ public final class IceQueensCastleUltimateBattle extends AbstractInstance
 						}
 						catch (Exception e)
 						{
-						
+							
 						}
 						break;
 					}
@@ -1128,6 +1128,35 @@ public final class IceQueensCastleUltimateBattle extends AbstractInstance
 				}
 				case FREYA_STAND:
 				{
+					
+					if (killer.isInParty())
+					{
+						if (killer.getParty().isInCommandChannel())
+						{
+							for (L2PcInstance member : killer.getParty().getCommandChannel().getMembers())
+							{
+								if (Util.checkIfInRange(1800, killer, member, true))
+								{
+									member.getCounters().onFreyaKill();
+								}
+							}
+						}
+						else
+						{
+							for (L2PcInstance member : killer.getParty().getMembers())
+							{
+								if (Util.checkIfInRange(1800, killer, member, true))
+								{
+									member.getCounters().onFreyaKill();
+								}
+							}
+						}
+					}
+					else
+					{
+						killer.getCounters().onFreyaKill();
+					}
+					
 					world.isSupportActive = false;
 					manageMovie(world, ExStartScenePlayer.SCENE_BOSS_FREYA_ENDING_A);
 					manageDespawnMinions(world);
@@ -1265,14 +1294,14 @@ public final class IceQueensCastleUltimateBattle extends AbstractInstance
 		}
 		for (L2PcInstance channelMember : channel.getMembers())
 		{
-			QuestState st = channelMember.getQuestState(Q10286_ReunionWithSirra.class.getSimpleName());
-			if ((st == null) || !st.isCompleted())
-			{
-				SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.C1_S_QUEST_REQUIREMENT_IS_NOT_SUFFICIENT_AND_CANNOT_BE_ENTERED);
-				sm.addPcName(channelMember);
-				player.getParty().getCommandChannel().broadcastPacket(sm);
-				return false;
-			}
+			// QuestState st = channelMember.getQuestState(Q10286_ReunionWithSirra.class.getSimpleName());
+			// if ((st == null) || !st.isCompleted())
+			// {
+			// SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.C1_S_QUEST_REQUIREMENT_IS_NOT_SUFFICIENT_AND_CANNOT_BE_ENTERED);
+			// sm.addPcName(channelMember);
+			// player.getParty().getCommandChannel().broadcastPacket(sm);
+			// return false;
+			// }
 			
 			if (channelMember.getLevel() < MIN_LEVEL)
 			{

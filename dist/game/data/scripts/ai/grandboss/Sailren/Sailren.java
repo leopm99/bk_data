@@ -29,6 +29,7 @@ import l2r.gameserver.model.actor.instance.L2RaidBossInstance;
 import l2r.gameserver.model.holders.SkillHolder;
 import l2r.gameserver.model.zone.type.L2NoRestartZone;
 import l2r.gameserver.network.serverpackets.SpecialCamera;
+import l2r.gameserver.util.Util;
 
 import ai.npc.AbstractNpcAI;
 
@@ -276,6 +277,35 @@ public final class Sailren extends AbstractNpcAI
 			{
 				case SAILREN:
 				{
+					
+					if (killer.isInParty())
+					{
+						if (killer.getParty().isInCommandChannel())
+						{
+							for (L2PcInstance member : killer.getParty().getCommandChannel().getMembers())
+							{
+								if (Util.checkIfInRange(1800, killer, member, true))
+								{
+									member.getCounters().onSailrenKill();
+								}
+							}
+						}
+						else
+						{
+							for (L2PcInstance member : killer.getParty().getMembers())
+							{
+								if (Util.checkIfInRange(1800, killer, member, true))
+								{
+									member.getCounters().onSailrenKill();
+								}
+							}
+						}
+					}
+					else
+					{
+						killer.getCounters().onSailrenKill();
+					}
+					
 					STATUS = Status.DEAD;
 					addSpawn(CUBIC, 27644, -6638, -2008, 0, false, 300000);
 					final long respawnTime = RESPAWN * 3600000;

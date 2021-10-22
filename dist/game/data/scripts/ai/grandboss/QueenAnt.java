@@ -38,6 +38,7 @@ import l2r.gameserver.model.skills.CommonSkill;
 import l2r.gameserver.model.skills.L2Skill;
 import l2r.gameserver.model.zone.type.L2BossZone;
 import l2r.gameserver.network.serverpackets.MagicSkillUse;
+import l2r.gameserver.util.Util;
 
 import ai.npc.AbstractNpcAI;
 
@@ -335,6 +336,36 @@ public final class QueenAnt extends AbstractNpcAI
 		int npcId = npc.getId();
 		if (npcId == QUEEN)
 		{
+			
+			if (killer.isInParty())
+			{
+				if (killer.getParty().isInCommandChannel())
+				{
+					for (L2PcInstance member : killer.getParty().getCommandChannel().getMembers())
+					{
+						if (Util.checkIfInRange(1800, killer, member, true))
+						{
+							member.getCounters().onAntQueenKill();
+						}
+					}
+				}
+				else
+				{
+					for (L2PcInstance member : killer.getParty().getMembers())
+					{
+						if (Util.checkIfInRange(1800, killer, member, true))
+						{
+							member.getCounters().onAntQueenKill();
+						}
+					}
+				}
+			}
+			else
+			{
+				killer.getCounters().onAntQueenKill();
+				
+			}
+			
 			npc.broadcastPacket(Music.BS02_D_10000.getPacket());
 			// Calculate Min and Max respawn times randomly.
 			long respawnTime = Config.QUEEN_ANT_SPAWN_INTERVAL + getRandom(-Config.QUEEN_ANT_SPAWN_RANDOM, Config.QUEEN_ANT_SPAWN_RANDOM);

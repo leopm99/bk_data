@@ -1483,6 +1483,35 @@ public final class FinalEmperialTomb extends AbstractInstance
 			}
 			else if (npc.getId() == SCARLET2)
 			{
+				
+				if (player.isInParty())
+				{
+					if (player.getParty().isInCommandChannel())
+					{
+						for (L2PcInstance member : player.getParty().getCommandChannel().getMembers())
+						{
+							if (Util.checkIfInRange(800, player, member, true))
+							{
+								member.getCounters().onFrintezzaKill();
+							}
+						}
+					}
+					else
+					{
+						for (L2PcInstance member : player.getParty().getMembers())
+						{
+							if (Util.checkIfInRange(800, player, member, true))
+							{
+								member.getCounters().onFrintezzaKill();
+							}
+						}
+					}
+				}
+				else
+				{
+					player.getCounters().onFrintezzaKill();
+				}
+				
 				controlStatus(world);
 			}
 			else if (world.getStatus() <= 2)

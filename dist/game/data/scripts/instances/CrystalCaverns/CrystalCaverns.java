@@ -1730,6 +1730,35 @@ public final class CrystalCaverns extends AbstractInstance
 			}
 			else if (npc.getId() == BAYLOR)
 			{
+				
+				if (player.isInParty())
+				{
+					if (player.getParty().isInCommandChannel())
+					{
+						for (L2PcInstance member : player.getParty().getCommandChannel().getMembers())
+						{
+							if (Util.checkIfInRange(1800, player, member, true))
+							{
+								member.getCounters().onBaylorKill();
+							}
+						}
+					}
+					else
+					{
+						for (L2PcInstance member : player.getParty().getMembers())
+						{
+							if (Util.checkIfInRange(1800, player, member, true))
+							{
+								member.getCounters().onBaylorKill();
+							}
+						}
+					}
+				}
+				else
+				{
+					player.getCounters().onBaylorKill();
+				}
+				
 				world.setStatus(31);
 				world._baylor = null;
 				Instance baylorInstance = InstanceManager.getInstance().getInstance(npc.getInstanceId());

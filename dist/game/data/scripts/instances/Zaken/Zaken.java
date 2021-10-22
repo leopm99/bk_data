@@ -362,6 +362,36 @@ public class Zaken extends AbstractNpcAI
 		
 		if (npcId == ZAKEN_NIGHT)
 		{
+			
+			if (killer.isInParty())
+			{
+				if (killer.getParty().isInCommandChannel())
+				{
+					for (L2PcInstance member : killer.getParty().getCommandChannel().getMembers())
+					{
+						if (Util.checkIfInRange(1800, killer, member, true))
+						{
+							member.getCounters().onZakenKill();
+						}
+					}
+				}
+				else
+				{
+					for (L2PcInstance member : killer.getParty().getMembers())
+					{
+						if (Util.checkIfInRange(1800, killer, member, true))
+						{
+							member.getCounters().onZakenKill();
+						}
+					}
+				}
+			}
+			else
+			{
+				killer.getCounters().onZakenKill();
+				
+			}
+			
 			InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
 			if (tmpworld instanceof ZWorld)
 			{

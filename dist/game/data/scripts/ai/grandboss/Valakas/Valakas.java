@@ -628,6 +628,35 @@ public final class Valakas extends AbstractNpcAI
 	{
 		if (zone.isCharacterInZone(killer))
 		{
+			
+			if (killer.isInParty())
+			{
+				if (killer.getParty().isInCommandChannel())
+				{
+					for (L2PcInstance member : killer.getParty().getCommandChannel().getMembers())
+					{
+						if (Util.checkIfInRange(1800, killer, member, true))
+						{
+							member.getCounters().onValakasKill();
+						}
+					}
+				}
+				else
+				{
+					for (L2PcInstance member : killer.getParty().getMembers())
+					{
+						if (Util.checkIfInRange(1800, killer, member, true))
+						{
+							member.getCounters().onValakasKill();
+						}
+					}
+				}
+			}
+			else
+			{
+				killer.getCounters().onValakasKill();
+			}
+			
 			zone.broadcastPacket(new SpecialCamera(_valakas, 2000, 130, -1, 0, 15000, 10000, 0, 0, 1, 1, 0));
 			zone.broadcastPacket(Music.B03_D_10000.getPacket());
 			startQuestTimer("CAMERA_10", 500, _valakas, null);

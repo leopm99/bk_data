@@ -556,6 +556,36 @@ public final class Baium extends AbstractNpcAI
 	{
 		if (zone.isCharacterInZone(killer))
 		{
+			
+			if (killer.isInParty())
+			{
+				if (killer.getParty().isInCommandChannel())
+				{
+					for (L2PcInstance member : killer.getParty().getCommandChannel().getMembers())
+					{
+						if (Util.checkIfInRange(1800, killer, member, true))
+						{
+							member.getCounters().onBaiumKill();
+						}
+					}
+				}
+				else
+				{
+					for (L2PcInstance member : killer.getParty().getMembers())
+					{
+						if (Util.checkIfInRange(1800, killer, member, true))
+						{
+							member.getCounters().onBaiumKill();
+						}
+					}
+				}
+			}
+			else
+			{
+				killer.getCounters().onBaiumKill();
+				
+			}
+			
 			setStatus(DEAD);
 			addSpawn(TELE_CUBE, TELEPORT_CUBIC_LOC, false, 900000);
 			zone.broadcastPacket(Music.BS01_D_10000.getPacket());

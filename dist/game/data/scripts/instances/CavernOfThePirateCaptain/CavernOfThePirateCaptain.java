@@ -33,6 +33,7 @@ import l2r.gameserver.model.instancezone.InstanceWorld;
 import l2r.gameserver.network.NpcStringId;
 import l2r.gameserver.network.SystemMessageId;
 import l2r.gameserver.network.serverpackets.SystemMessage;
+import l2r.gameserver.util.Util;
 
 import instances.AbstractInstance;
 
@@ -379,6 +380,34 @@ public final class CavernOfThePirateCaptain extends AbstractInstance
 			
 			if (npc.getId() == ZAKEN_83)
 			{
+				if (killer.isInParty())
+				{
+					if (killer.getParty().isInCommandChannel())
+					{
+						for (L2PcInstance member : killer.getParty().getCommandChannel().getMembers())
+						{
+							if (Util.checkIfInRange(800, killer, member, true))
+							{
+								member.getCounters().onZakenKill();
+							}
+						}
+					}
+					else
+					{
+						for (L2PcInstance member : killer.getParty().getMembers())
+						{
+							if (Util.checkIfInRange(800, killer, member, true))
+							{
+								member.getCounters().onZakenKill();
+							}
+						}
+					}
+				}
+				else
+				{
+					killer.getCounters().onZakenKill();
+				}
+				
 				long time = System.currentTimeMillis() - world.storeTime;
 				_log.info("Zaken day hard(83) killed in: " + time + " Killer: " + killer.getName());
 				for (L2PcInstance playersInside : world.playersInside)

@@ -763,6 +763,35 @@ public final class Beleth extends AbstractNpcAI
 	{
 		if (npc.getId() == REAL_BELETH)
 		{
+			
+			if (killer.isInParty())
+			{
+				if (killer.getParty().isInCommandChannel())
+				{
+					for (L2PcInstance member : killer.getParty().getCommandChannel().getMembers())
+					{
+						if (Util.checkIfInRange(800, killer, member, true))
+						{
+							member.getCounters().onBelethKill();
+						}
+					}
+				}
+				else
+				{
+					for (L2PcInstance member : killer.getParty().getMembers())
+					{
+						if (Util.checkIfInRange(800, killer, member, true))
+						{
+							member.getCounters().onBelethKill();
+						}
+					}
+				}
+			}
+			else
+			{
+				killer.getCounters().onBelethKill();
+			}
+			
 			cancelQuestTimer("CHECK_ATTACK", null, null);
 			
 			setBelethKiller(killer);
