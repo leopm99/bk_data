@@ -57,7 +57,7 @@ public final class DragonValley extends AbstractNpcAI
 		22826, // Scorpion Bones
 		22823, // Drakos Assassin
 		22828, // Parasitic Leech
-		
+	
 	};
 	private static final int[] REACT_MONSTER =
 	{
@@ -100,42 +100,42 @@ public final class DragonValley extends AbstractNpcAI
 	private final String RESET = "RESET";
 	
 	{
-		CLASS_POINTS.put(ClassId.adventurer, 0);
+		CLASS_POINTS.put(ClassId.adventurer, 9);
 		CLASS_POINTS.put(ClassId.arcanaLord, 22);
-		CLASS_POINTS.put(ClassId.archmage, 1);
-		CLASS_POINTS.put(ClassId.cardinal, 0);
-		CLASS_POINTS.put(ClassId.dominator, 4);
-		CLASS_POINTS.put(ClassId.doombringer, 3);
-		CLASS_POINTS.put(ClassId.doomcryer, 0);
+		CLASS_POINTS.put(ClassId.archmage, 9);
+		CLASS_POINTS.put(ClassId.cardinal, 9);
+		CLASS_POINTS.put(ClassId.dominator, 8);
+		CLASS_POINTS.put(ClassId.doombringer, 13);
+		CLASS_POINTS.put(ClassId.doomcryer, 11);
 		CLASS_POINTS.put(ClassId.dreadnought, 17);
-		CLASS_POINTS.put(ClassId.duelist, 5);
+		CLASS_POINTS.put(ClassId.duelist, 15);
 		CLASS_POINTS.put(ClassId.elementalMaster, 20);
-		CLASS_POINTS.put(ClassId.evaSaint, 0);
+		CLASS_POINTS.put(ClassId.evaSaint, 9);
 		CLASS_POINTS.put(ClassId.evaTemplar, 14);
 		CLASS_POINTS.put(ClassId.femaleSoulhound, 11);
 		CLASS_POINTS.put(ClassId.fortuneSeeker, 17);
 		CLASS_POINTS.put(ClassId.ghostHunter, 8);
-		CLASS_POINTS.put(ClassId.ghostSentinel, 0);
-		CLASS_POINTS.put(ClassId.grandKhavatari, 0);
-		CLASS_POINTS.put(ClassId.hellKnight, 2);
+		CLASS_POINTS.put(ClassId.ghostSentinel, 11);
+		CLASS_POINTS.put(ClassId.grandKhavatari, 9);
+		CLASS_POINTS.put(ClassId.hellKnight, 12);
 		CLASS_POINTS.put(ClassId.hierophant, 18);
 		CLASS_POINTS.put(ClassId.judicator, 23);
-		CLASS_POINTS.put(ClassId.moonlightSentinel, 0);
+		CLASS_POINTS.put(ClassId.moonlightSentinel, 10);
 		CLASS_POINTS.put(ClassId.maestro, 19);
 		CLASS_POINTS.put(ClassId.maleSoulhound, 11);
-		CLASS_POINTS.put(ClassId.mysticMuse, 0);
-		CLASS_POINTS.put(ClassId.phoenixKnight, 0);
-		CLASS_POINTS.put(ClassId.sagittarius, 0);
-		CLASS_POINTS.put(ClassId.shillienSaint, 0);
+		CLASS_POINTS.put(ClassId.mysticMuse, 20);
+		CLASS_POINTS.put(ClassId.phoenixKnight, 20);
+		CLASS_POINTS.put(ClassId.sagittarius, 10);
+		CLASS_POINTS.put(ClassId.shillienSaint, 10);
 		CLASS_POINTS.put(ClassId.shillienTemplar, 10);
-		CLASS_POINTS.put(ClassId.soultaker, 0);
-		CLASS_POINTS.put(ClassId.spectralDancer, 0);
+		CLASS_POINTS.put(ClassId.soultaker, 10);
+		CLASS_POINTS.put(ClassId.spectralDancer, 10);
 		CLASS_POINTS.put(ClassId.spectralMaster, 24);
-		CLASS_POINTS.put(ClassId.stormScreamer, 0);
-		CLASS_POINTS.put(ClassId.swordMuse, 0);
-		CLASS_POINTS.put(ClassId.titan, 1);
+		CLASS_POINTS.put(ClassId.stormScreamer, 10);
+		CLASS_POINTS.put(ClassId.swordMuse, 10);
+		CLASS_POINTS.put(ClassId.titan, 12);
 		CLASS_POINTS.put(ClassId.trickster, 5);
-		CLASS_POINTS.put(ClassId.windRider, 2);
+		CLASS_POINTS.put(ClassId.windRider, 9);
 	}
 	
 	public DragonValley()
