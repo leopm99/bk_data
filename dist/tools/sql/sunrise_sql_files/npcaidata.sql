@@ -1,3 +1,20 @@
+/*
+Navicat MySQL Data Transfer
+
+Source Server         : localhost
+Source Server Version : 50638
+Source Host           : localhost:3306
+Source Database       : sunrise979
+
+Target Server Type    : MYSQL
+Target Server Version : 50638
+File Encoding         : 65001
+
+Date: 2021-10-24 22:09:24
+*/
+
+SET FOREIGN_KEY_CHECKS=0;
+
 -- ----------------------------
 -- Table structure for `custom_npcaidata`
 -- ----------------------------
@@ -71,3 +88,27 @@ INSERT INTO `custom_npcaidata` VALUES ('9999', '7', '15', '0', '0', '0', '1', '1
 INSERT INTO `custom_npcaidata` VALUES ('10000', '7', '15', '0', '1000', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1500', '0', null, '300', null, '0', '0', 'fighter');
 INSERT INTO `custom_npcaidata` VALUES ('50007', '7', '15', '0', '1000', '0', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', null, '300', null, '0', '0', 'fighter');
 INSERT INTO `custom_npcaidata` VALUES ('70010', '7', '15', '0', '1000', '0', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', null, '300', null, '0', '0', 'fighter');
+INSERT INTO `custom_npcaidata` VALUES ('578', '7', '15', '0', '0', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', null, '0', null, '0', '0', 'fighter');
+INSERT INTO `custom_npcaidata` VALUES ('576', '7', '15', '0', '0', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', null, '0', null, '0', '0', 'fighter');
+INSERT INTO `custom_npcaidata` VALUES ('577', '7', '15', '0', '0', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', null, '0', null, '0', '0', 'fighter');
+INSERT INTO `custom_npcaidata` VALUES ('10001', '7', '15', '0', '0', '1', '1', '1', '0', '0', '0', '0', '2', '2', '0', '0', '0', '0', null, '0', null, '0', '0', 'balanced');
+INSERT INTO `custom_npcaidata` VALUES ('10002', '7', '15', '0', '0', '1', '1', '1', '0', '0', '0', '0', '2', '2', '0', '0', '0', '0', null, '0', null, '0', '0', 'balanced');
+INSERT INTO `custom_npcaidata` VALUES ('8000', '7', '15', '0', '500', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '500', '0', null, '300', null, '0', '0', 'fighter');
+INSERT INTO `custom_npcaidata` VALUES ('8001', '7', '15', '0', '500', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '500', '0', null, '300', null, '0', '0', 'fighter');
+INSERT INTO `custom_npcaidata` VALUES ('8002', '7', '15', '0', '500', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '500', '0', null, '300', null, '0', '0', 'fighter');
+INSERT INTO `custom_npcaidata` VALUES ('8003', '7', '15', '0', '500', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '500', '0', null, '300', null, '0', '0', 'fighter');
+INSERT INTO `custom_npcaidata` VALUES ('9994', '7', '15', '0', '500', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '500', '0', null, '300', null, '0', '0', 'fighter');
+INSERT INTO `custom_npcaidata` VALUES ('8005', '7', '15', '0', '500', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '500', '0', null, '300', null, '0', '0', 'fighter');
+INSERT INTO `custom_npcaidata` VALUES ('8007', '7', '15', '0', '500', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '500', '0', null, '300', null, '0', '0', 'fighter');
+INSERT INTO `custom_npcaidata` VALUES ('8008', '7', '15', '0', '500', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '500', '0', null, '300', null, '0', '0', 'fighter');
+INSERT INTO `custom_npcaidata` VALUES ('8009', '7', '15', '0', '500', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '500', '0', null, '300', null, '0', '0', 'fighter');
+INSERT INTO `custom_npcaidata` VALUES ('8010', '7', '15', '0', '500', '1', '1', '1', '0', '0', '0', '0', '1808', '0', '0', '0', '500', '0', null, '300', null, '0', '0', 'fighter');
+INSERT INTO `custom_npcaidata` VALUES ('579', '7', '15', '0', '0', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', null, '0', null, '0', '0', 'fighter');
+INSERT INTO `custom_npcaidata` VALUES ('8011', '7', '15', '0', '0', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', null, '0', null, '0', '0', 'fighter');
+INSERT INTO `custom_npcaidata` VALUES ('8012', '7', '15', '0', '0', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', null, '0', null, '0', '0', 'fighter');
+INSERT INTO `custom_npcaidata` VALUES ('8013', '7', '15', '0', '0', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', null, '0', null, '0', '0', 'fighter');
+INSERT INTO `custom_npcaidata` VALUES ('8014', '7', '15', '0', '0', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', null, '0', null, '0', '0', 'fighter');
+INSERT INTO `custom_npcaidata` VALUES ('8015', '7', '15', '0', '0', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', null, '0', null, '0', '0', 'fighter');
+INSERT INTO `custom_npcaidata` VALUES ('8016', '7', '15', '0', '0', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', null, '0', null, '0', '0', 'fighter');
+INSERT INTO `custom_npcaidata` VALUES ('500', '7', '15', '0', '0', '0', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', null, '0', null, '0', '0', 'fighter');
+INSERT INTO `custom_npcaidata` VALUES ('504', '7', '15', '0', '0', '0', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', null, '0', null, '0', '0', 'fighter');

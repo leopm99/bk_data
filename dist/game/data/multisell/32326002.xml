@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+<list  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
 	<npcs>
 		<npc>32325</npc> <!-- Yin (Attribute Master) -->
 		<npc>32326</npc> <!-- Yang (Attribute Master) -->
@@ -87,5 +87,53 @@
 		<ingredient count="3000000" id="57" />
 		<!-- Dark Crystal -->
 		<production count="1" id="9556" />
+	</item>
+	<item>
+		<!-- Fire Crystal -->
+		<ingredient count="5" id="9552" />
+		<!-- Adena -->
+		<ingredient count="6000000" id="57" />
+		<!-- Fire Jewel -->
+		<production count="1" id="9558" />
+	</item>
+	<item>
+		<!-- Water Crystal -->
+		<ingredient count="5" id="9553" />
+		<!-- Adena -->
+		<ingredient count="6000000" id="57" />
+		<!-- Water Jewel -->
+		<production count="1" id="9559" />
+	</item>
+	<item>
+		<!-- Earth Crystal -->
+		<ingredient count="5" id="9554" />
+		<!-- Adena -->
+		<ingredient count="6000000" id="57" />
+		<!-- Earth Jewel -->
+		<production count="1" id="9560" />
+	</item>
+	<item>
+		<!-- Wind Crystal -->
+		<ingredient count="5" id="9555" />
+		<!-- Adena -->
+		<ingredient count="6000000" id="57" />
+		<!-- Wind Jewel -->
+		<production count="1" id="9561" />
+	</item>
+	<item>
+		<!-- Holy Crystal -->
+		<ingredient count="5" id="9557" />
+		<!-- Adena -->
+		<ingredient count="6000000" id="57" />
+		<!-- Holy Jewel -->
+		<production count="1" id="9563" />
+	</item>
+	<item>
+		<!-- Dark Crystal -->
+		<ingredient count="5" id="9556" />
+		<!-- Adena -->
+		<ingredient count="6000000" id="57" />
+		<!-- Dark Jewel -->
+		<production count="1" id="9562" />
 	</item>
 </list>

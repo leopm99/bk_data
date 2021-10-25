@@ -1,18 +1,29 @@
-<html>
-	<title>Npc Buffer</title>
-	<body>
-		<br>
-		<center>
-		<font color="LEVEL">Functions:</font><br>
-		<img src="L2UI.SquareWhite" width=280 height=1><br>
-		Choose between one of the functions<br>
-		<br><br>
-		<button value="HP - MP - CP" action="bypass -h npc_%objectId%_healme" width=120 height=32 back="L2UI_CT1.Button_DF_Down" fore="L2UI_ct1.button_df"><br>
-		<button value="Auto Buffs" action="bypass -h npc_%objectId%_autobuff" width=120 height=32 back="L2UI_CT1.Button_DF_Down" fore="L2UI_ct1.button_df"><br></font><br>
-		<button value="Cancel Buffs" action="bypass -h npc_%objectId%_removebuff" width=120 height=32 back="L2UI_CT1.Button_DF_Down" fore="L2UI_ct1.button_df"><br></font> 
-		<br>
-		<img src="L2UI.SquareGray" width=250 height=1><br>
-		<td><button value="Back" action="bypass -h npc_%objectId%_Chat_main.htm" width=90 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
-		</center>
-	</body>
-</html>
+<html noscrollbar><title>Support Buffer</title><body>
+<table border=0 cellpadding=0 cellspacing=0 width=292 height=358 background="L2UI_CH3.refinewnd_back_Pattern">
+<tr><td valign="top" align="center">
+
+<!--- Description --->
+<table border=0 cellpadding=0 cellspacing=0 width=292>
+<tr><td height=25></td></tr>
+<tr><td align=center><font color=AE9977 name="hs12">Functions</font><br></td></tr>
+<tr><td align=center><font color="FFFFFF">Choose between one of the functions.</font></td>
+<tr><td height=25></td></tr>
+</table>
+
+<!--- HP - MP - CP --->
+<table border=0 cellpadding=0 cellspacing=0 width=292>
+<tr><td align=center><button value="HP - MP - CP" action="bypass -h npc_%objectId%_healme" width=135 height=28 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+
+<!--- Auto Buffs --->
+<tr><td align=center><button value="Auto Buffs" action="bypass -h npc_%objectId%_autobuff" width=135 height=28 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+
+<!--- Cancel Buffs --->
+<tr><td align=center><button value="Cancel Buffs" action="bypass -h npc_%objectId%_removebuff" width=135 height=28 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+<tr><td height=30></td></tr>
+</table>
+
+<!--- Back --->
+<table border=0 cellpadding=0 cellspacing=0 width=292>
+<tr><td align=center><button action="bypass -h npc_%objectId%_Chat_main.htm" width=50 height=30 back="L2UI_ct1.Inventory_DF_Btn_RotateRight_Down" fore="L2UI_ct1.Inventory_DF_Btn_RotateRight"></td></tr>
+</table>
+</body></html>

@@ -30,4 +30,19 @@
 	<shield number="10" id="12812" name="Dynasty Sigil">
 		<price id="57" count="5000000" />
 	</shield>
+	<shield number="11" id="34000" name="Immortal Shield">
+		<price id="57" count="5000000" />
+	</shield>
+	<shield number="12" id="34001" name="Twilight Shield">
+		<price id="57" count="5000000" />
+	</shield>
+	<shield number="13" id="34002" name="Seraph Shield">
+		<price id="57" count="5000000" />
+	</shield>
+	<shield number="14" id="34003" name="Eternal Shield">
+		<price id="57" count="5000000" />
+	</shield>
+	<shield number="15" id="34004" name="Leviathan Shield">
+		<price id="57" count="5000000" />
+	</shield>
 </list>

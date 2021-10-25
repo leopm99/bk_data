@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 
 <!-- Adena Shop - Consum -->
-<list maintainEnchantment="false"
+<list  maintainEnchantment="false"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="../../xsd/multisell.xsd">
   <!-- Arrows -->
@@ -67,28 +67,7 @@
     <ingredient id="57" count="1000"/>
     <production id="9637" count="1"/>
   </item>
-
-  <!-- Crystals -->
-
-  <item>
-    <ingredient id="57" count="1927"/>
-    <production id="1458" count="1"/>
-  </item>
-
-  <item>
-    <ingredient id="57" count="8163"/>
-    <production id="1459" count="1"/>
-  </item>
-
-  <item>
-    <ingredient id="57" count="14421"/>
-    <production id="1460" count="1"/>
-  </item>
-
-  <item>
-    <ingredient id="57" count="29217"/>
-    <production id="1461" count="1"/>
-  </item>
+  
   <!-- Gemstones -->
 
   <item>
@@ -104,11 +83,6 @@
   <item>
     <ingredient id="57" count="11000"/>
     <production id="2132" count="1"/>
-  </item>
-
-  <item>
-    <ingredient id="57" count="39200"/>
-    <production id="2133" count="1"/>
   </item>
 
   <!-- Soul Ore -->
@@ -159,30 +133,7 @@
     <production id="1661" count="1"/>
   </item>
 
-  <item>
-    <ingredient id="57" count="110"/>
-    <production id="5192" count="1"/>
-  </item>
-
-  <item>
-    <ingredient id="57" count="165"/>
-    <production id="5193" count="1"/>
-  </item>
-
-  <item>
-    <ingredient id="57" count="275"/>
-    <production id="5194" count="1"/>
-  </item>
-
-  <item>
-    <ingredient id="57" count="440"/>
-    <production id="5195" count="1"/>
-  </item>
-
-  <item>
-    <ingredient id="57" count="1600"/>
-    <production id="5196" count="1"/>
-  </item>
+  
 
   <!-- Scroll: Recovery (Grade D) -->
 
@@ -252,10 +203,7 @@
     <ingredient id="57" count="550"/>
     <production id="10409" count="1"/>
   </item>
-  <item>
-    <ingredient id="57" count="1000000"/>
-    <production id="9994" count="1"/>
-  </item>
+  
   <!-- Greater Healing Potion -->
 
   <item>
@@ -273,30 +221,9 @@
   Mana Potion
 	-->
   <item>
-    <ingredient id="57" count="5000"/>
+    <ingredient id="57" count="2000"/>
     <production id="728" count="1"/>
-  </item>
-
-  <!-- Mystery Potion -->
-
-  <item>
-    <ingredient id="57" count="50000"/>
-    <production id="5234" count="1"/>
-  </item>
-  <!-- Pagan Mark -->
-
-  <item>
-    <ingredient id="57" count="1000000"/>
-    <production id="8067" count="1"/>
-  </item>
-  <!-- contaminated cry -->
-
-  <item>
-    <ingredient id="57" count="15000000"/>
-    <production id="9690" count="1"/>
-  </item>
-  <item>
-    <ingredient id="57" count="5000000"/>
-    <production id="9700" count="1"/>
-  </item>
+  </item>   
+  
+  
 </list>

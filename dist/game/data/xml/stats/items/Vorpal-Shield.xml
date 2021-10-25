@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+    
+	
+	<item id="34010" type="Armor" name="Vorpal Shield">
+		<set name="icon" val="icon.Evilgate_Shield_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="704" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="1190" />
+		<set name="price" val="14658000" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="399" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+    <item id="34011" type="Armor" name="Vorpal Shield">
+		<set name="icon" val="icon.Evilgate_Shield_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="704" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="1190" />
+		<set name="price" val="14658000" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="399" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>	
+    <item id="34012" type="Armor" name="Vorpal Shield">
+		<set name="icon" val="icon.Evilgate_Shield_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="704" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="1190" />
+		<set name="price" val="14658000" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="399" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>	
+    <item id="34013" type="Armor" name="Vorpal Shield">
+		<set name="icon" val="icon.Evilgate_Shield_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="704" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="1190" />
+		<set name="price" val="14658000" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="399" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>	
+    <item id="34014" type="Armor" name="Vorpal Shield">
+		<set name="icon" val="icon.Evilgate_Shield_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="704" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="1190" />
+		<set name="price" val="14658000" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="399" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>		
+		
+</list>

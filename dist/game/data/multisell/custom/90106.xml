@@ -1,13 +1,77 @@
 <?xml version='1.0' encoding='utf-8'?>
 
-<list maintainEnchantment="false"
+<list  maintainEnchantment="false"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="../../xsd/multisell.xsd">
-
+<!--Bronze Coin / Destruction Enchant Armor-->
 	<item>
-		<ingredient id="6673" count="100" />
-		<production id="5592" count="5000" />
+		<!-- Bronze Coin -->
+		<ingredient count="20" id="22575" />
+		<!-- Enchant AD -->
+		<production count="10" id="22230" />
+	</item>	
+	<item>
+		<!-- Bronze Coin -->
+		<ingredient count="20" id="22575" />
+		<!-- Enchant AC -->
+		<production count="10" id="22228" />
+	</item>
+	<item>
+		<!-- Bronze Coin -->
+		<ingredient count="20" id="22575" />
+		<!-- Enchant AB -->
+		<production count="10" id="22226" />
+	</item>
+	<item>
+		<!-- Bronze Coin -->
+		<ingredient count="20" id="22575" />
+		<!-- Enchant AA-->
+		<production count="10" id="22224" />
+	</item>
+	<item>
+		<!-- Bronze Coin -->
+		<ingredient count="20" id="22575" />
+		<!-- Enchant AS -->
+		<production count="10" id="22222" />
+	</item>
+	<item>
+		<!-- Bronze Coin -->
+		<ingredient count="1" id="0" />
+		<!-- Enchant WS -->
+		<production count="1" id="0" />
 	</item>
 
+
+<!--Bronze Coin / Destruction Enchant Weapon-->
+	<item>
+		<!-- Bronze Coin -->
+		<ingredient count="20" id="22575" />
+		<!-- Enchant WD -->
+		<production count="5" id="22229" />
+	</item>
+	<item>
+		<!-- Bronze Coin -->
+		<ingredient count="20" id="22575" />
+		<!-- Enchant WC -->
+		<production count="5" id="22227" />
+	</item>
+	<item>
+		<!-- Bronze Coin -->
+		<ingredient count="20" id="22575" />
+		<!-- Enchant WB -->
+		<production count="5" id="22225" />
+	</item>
+	<item>
+		<!-- Bronze Coin -->
+		<ingredient count="20" id="22575" />
+		<!-- Enchant WA -->
+		<production count="5" id="22223" />
+	</item>
+	<item>
+		<!-- Bronze Coin -->
+		<ingredient count="20" id="22575" />
+		<!-- Enchant WS -->
+		<production count="5" id="22221" />
+	</item>		
 
 </list>

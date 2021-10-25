@@ -280,4 +280,64 @@
 		<set chest="14589" legs="-1" gloves="14590" feet="14591" />
 		<price id="57" count="2000000000" />
 	</dress>
+	<dress id="30000" name="Immortal Armor Set" type="HEAVY">
+		<set chest="30000" legs="30002" gloves="30004" feet="30005" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="30006" name="Immortal Leather Set" type="LIGHT">
+		<set chest="30006" legs="30008" gloves="30010" feet="31011" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="30012" name="Immortal Robe Set" type="ROBE">
+		<set chest="30012" legs="30014" gloves="30016" feet="30017" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="30100" name="Twlight Armor Set" type="HEAVY">
+		<set chest="30100" legs="30102" gloves="30104" feet="30105" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="30106" name="Twlight Leather Set" type="LIGHT">
+		<set chest="30106" legs="30108" gloves="30110" feet="30111" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="30112" name="Twlight Robe Set" type="ROBE">
+		<set chest="30112" legs="30114" gloves="30116" feet="30117" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="30200" name="Seraph Armor Set" type="HEAVY">
+		<set chest="30200" legs="30202" gloves="30204" feet="30205" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="30206" name="Seraph Leather Set" type="LIGHT">
+		<set chest="30206" legs="30208" gloves="30210" feet="30211" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="30212" name="Seraph Robe Set" type="ROBE">
+		<set chest="30212" legs="30214" gloves="30216" feet="30217" />
+		<price id="57" count="2000000000" />
+	</dress>	
+	<dress id="30300" name="Eternal Armor Set" type="HEAVY">
+		<set chest="30300" legs="30302" gloves="30304" feet="30305" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="30306" name="Eternal Leather Set" type="LIGHT">
+		<set chest="30306" legs="30308" gloves="30310" feet="30311" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="30312" name="Eternal Robe Set" type="ROBE">
+		<set chest="30312" legs="30314" gloves="30316" feet="30317" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="30400" name="Leviathan Armor Set" type="HEAVY">
+		<set chest="30400" legs="30402" gloves="30404" feet="30405" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="30406" name="Leviathan Leather Set" type="LIGHT">
+		<set chest="30406" legs="30408" gloves="30410" feet="30411" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="30412" name="Leviathan Robe Set" type="ROBE">
+		<set chest="30412" legs="30414" gloves="30416" feet="30417" />
+		<price id="57" count="2000000000" />
+	</dress>
 </list>

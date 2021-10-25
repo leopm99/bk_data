@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/armorSets.xsd">
+	<!-- S80 Moirai PVP Armor Sets -->
+	<set id="197">
+		<chest id="30301" /> <!-- Moirai Breastplate {PvP} -->		
+		<legs id="30302" /> <!-- Moirai Gaiter -->		
+		<head id="30303" /> <!-- Moirai Helmet -->		
+		<gloves id="30304" /> <!-- Moirai Gauntlet -->		
+		<feet id="30305" /> <!-- Moirai Boots -->		
+		<shield id="34003" /> <!-- Moirai Shield -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="8406" level="1" /> <!-- Moirai Heavy Armor Set - PVP -->
+		<shield_skill id="8493" level="1" /> <!-- Moirai Shield -->
+		<enchant6skill id="3623" level="1" /> <!-- Enchant Heavy Armor (S Grade) -->
+		<str val="2" />
+		<con val="-2" />
+	</set>
+	<set id="198">
+		<chest id="30307" /> <!-- Moirai Leather Breastplate {PvP} -->		
+		<legs id="30308" /> <!-- Moirai Leather Legging -->		
+		<head id="30309" /> <!-- Moirai Leather Helmet -->		
+		<gloves id="30310" /> <!-- Moirai Leather Gloves -->		
+		<feet id="30311" /> <!-- Moirai Leather Boots -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="8407" level="1" /> <!-- Moirai Light Armor Set - PVP -->
+		<enchant6skill id="3624" level="1" /> <!-- Enchant Light Armor (S Grade) -->
+		<con val="-2" />
+		<dex val="2" />
+	</set>
+	<set id="199">
+		<chest id="30313" /> <!-- Moirai Tunic {PvP} -->		
+		<legs id="30314" /> <!-- Moirai Stockings -->		
+		<head id="30315" /> <!-- Moirai Circlet -->		
+		<gloves id="30316" /> <!-- Moirai Gloves -->		
+		<feet id="30317" /> <!-- Moirai Shoes -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="8408" level="1" /> <!-- Moirai Robe Set - PVP -->
+		<enchant6skill id="3625" level="1" /> <!-- Enchant Robe (S Grade) -->
+		<men val="-2" />
+		<wit val="2" />
+	</set>
+</list>

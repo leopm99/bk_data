@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="33300" type="Armor" name="Elegia Breastplate">
+		<set name="icon" val="icon.armor_t97_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="3214" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="7520" />
+		<set name="price" val="66953000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="272" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33301" type="Armor" name="Elegia Breastplate {PvP}">
+		<set name="icon" val="icon.armor_t97_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="3214" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="7520" />
+		<set name="price" val="66953000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="272" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33302" type="Armor" name="Elegia Gaiter">
+		<set name="icon" val="icon.armor_t97_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="2009" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="3170" />
+		<set name="price" val="41846000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="170" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33303" type="Armor" name="Elegia Helmet">
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="1205" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="25107000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="110" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33304" type="Armor" name="Elegia Gauntlet">
+		<set name="icon" val="icon.armor_t97_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="803" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="16738000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="74" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33305" type="Armor" name="Elegia Boots">
+		<set name="icon" val="icon.armor_t97_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="803" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="16738000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="74" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33306" type="Armor" name="Elegia Leather Breastplate">
+		<set name="icon" val="icon.armor_t98_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="2410" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="4140" />
+		<set name="price" val="50215000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0" stat="pDef" val="204" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33007" type="Armor" name="Elegia Leather Breastplate {PvP}">
+		<set name="icon" val="icon.armor_t98_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="2410" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="4140" />
+		<set name="price" val="50215000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0" stat="pDef" val="204" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33308" type="Armor" name="Elegia Leather Legging">
+		<set name="icon" val="icon.armor_t98_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="1506" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="1320" />
+		<set name="price" val="31384000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0" stat="pDef" val="128" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33309" type="Armor" name="Elegia Leather Helmet">
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="1205" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="25107000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0" stat="pDef" val="110" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33310" type="Armor" name="Elegia Leather Gloves">
+		<set name="icon" val="icon.armor_t98_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="803" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="16738000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0" stat="pDef" val="74" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33311" type="Armor" name="Elegia Leather Boots">
+		<set name="icon" val="icon.armor_t98_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="803" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="16738000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0" stat="pDef" val="74" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33312" type="Armor" name="Elegia Tunic">
+		<set name="icon" val="icon.armor_t99_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="2410" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="1750" />
+		<set name="price" val="50215000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="136" />
+			<add stat="maxMp" val="661" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33313" type="Armor" name="Elegia Tunic {PvP}">
+		<set name="icon" val="icon.armor_t99_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="2410" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="1750" />
+		<set name="price" val="50215000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="136" />
+			<add stat="maxMp" val="661" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33314" type="Armor" name="Elegia Stockings">
+		<set name="icon" val="icon.armor_t99_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="1506" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="850" />
+		<set name="price" val="31384000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="85" />
+			<add stat="maxMp" val="439" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33315" type="Armor" name="Elegia Circlet">
+		<set name="icon" val="icon.armor_circlet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="1205" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="25107000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="110" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33316" type="Armor" name="Elegia Gloves">
+		<set name="icon" val="icon.armor_t99_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="803" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="16738000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="74" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="33317" type="Armor" name="Elegia Shoes">
+		<set name="icon" val="icon.armor_t99_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="803" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="16738000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="74" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+</list>

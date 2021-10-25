@@ -1,37 +1,62 @@
-<html>
-<title>Npc Buffer</title>
-<body>
-<center>
-<font color="LEVEL">Functions Selection</font>
-<br>
-<img src="L2UI.SquareGray" width=250 height=1>
-<br>
-<font color="FFFFFF">Scheme Management</font>
-<br>
-<table width=230>
-<tr>
-<td align=center><button value="Create" action="bypass -h npc_%objectId%_Chat_newSchemeProfile.htm" width=92 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
-<td align=center><button value="Delete" action="bypass -h npc_%objectId%_showProfiles_deleteProfile" width=92 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
-</tr>
-</table width=230>
-<br>
-<img src="L2UI.SquareGray" width=250 height=1>
-<br>
-<font color="FFFFFF">Scheme Buff Management</font>
-<br>
-<table width=230>
-<tr>
-<td align=center><button value="Add Buffs" action="bypass -h npc_%objectId%_Chat_scheme.htm" width=92 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
-<td align=center><button value="Remove Buffs" action="bypass -h npc_%objectId%_showProfiles_showBuffsToDelete" width=92 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
-</tr>
-</table width=230>
-<br>
-<img src="L2UI.SquareGray" width=250 height=1>
-<br>
-<button value="Buff Me" action="bypass -h npc_%objectId%_showProfiles_buffforme" width=130 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_ct1.button_df">
-<button value="Buff My Party" action="bypass -h npc_%objectId%_showProfiles_buffforparty" width=130 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_ct1.button_df">
-<button value="Buff My Pet" action="bypass -h npc_%objectId%_showProfiles_buffforpet" width=130 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_ct1.button_df">
-<button value="Functions" action="bypass -h npc_%objectId%_Chat_functions.htm" width=130 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_ct1.button_df">
-<button value="Single Buff" action="bypass -h npc_%objectId%_Chat_buffer.htm" width=130 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_ct1.button_df">
-</center>
+<html noscrollbar><title>Support Buffer</title><body>
+<table border=0 cellpadding=0 cellspacing=0 width=292 height=358 background="L2UI_CH3.refinewnd_back_Pattern">
+<tr><td valign="top" align="center">
+
+<!--- Description --->
+<table width=278>
+<tr><td height=15></td></tr>
+<tr><td align=center><font color=AE9977 name="hs12">Support Buffer</font><br></td></tr>
+<tr><td align=center><font color="FFFFFF">Here you can create your selection of buffs, so it will be much easier to get your resistances and increase your strength to fight the enemies.</font></td></tr>
+<tr><td height=10></td></tr>
+</table>
+
+<!--- Manage your Scheme Buffs --->
+<table border=0 cellpadding=0 cellspacing=0 width=292>
+<tr><td align=center><font color="AE9977">Manage your Scheme Buffs</font></td></tr>
+</table>
+
+<!--- Create --->
+<table width=260 cellpadding=1 cellspacing=1>
+<tr><td align=center><button value="Create" action="bypass -h npc_%objectId%_Chat_newSchemeProfile.htm" width=100 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+
+<!--- Delete --->
+<td align=center><button value="Delete" action="bypass -h npc_%objectId%_showProfiles_deleteProfile" width=100 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+
+<!--- Add Buffs --->
+<tr><td align=center><button value="Add Buffs" action="bypass -h npc_%objectId%_Chat_scheme.htm" width=100 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+
+<!--- Remove Buffs --->
+<td align=center><button value="Remove Buffs" action="bypass -h npc_%objectId%_showProfiles_showBuffsToDelete" width=100 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+<tr><td height=10></td></tr>
+</table>
+
+<!--- Self, Party and Pet Functions --->
+<table border=0 cellpadding=0 cellspacing=0 width=292>
+<tr><td align=center><font color="AE9977">Self, Party and Pet Functions</font></td></tr>
+</table>
+
+<!--- Buff My Pet --->
+<table width=260 cellpadding=1 cellspacing=1>
+<tr><td align=center><button value="Buff My Pet" action="bypass -h npc_%objectId%_showProfiles_buffforpet" width=100 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+
+<!--- Buff My Party --->
+<td align=center><button value="Buff My Party" action="bypass -h npc_%objectId%_showProfiles_buffforparty" width=100 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+
+<!--- Functions --->
+<tr><td align=center><button value="Functions" action="bypass -h npc_%objectId%_Chat_functions.htm" width=100 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+
+<!--- Single Buff --->
+<td align=center><button value="Single Buff" action="bypass -h npc_%objectId%_Chat_buffer.htm" width=100 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+<tr><td height=10></td></tr>
+</table>
+
+<!--- Your Scheme Buffs --->
+<table border=0 cellpadding=0 cellspacing=0 width=292>
+<tr><td align=center><font color="AE9977">Your Scheme Buffs</font></td></tr>
+</table>
+
+<!--- My Buffs --->
+<table border=0 cellpadding=1 cellspacing=1 width=292>
+<tr><td align=center><button value="My Buffs" action="bypass -h npc_%objectId%_showProfiles_buffforme" width=200 height=31 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+</table>
 </body></html>

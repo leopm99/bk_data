@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<list applyTaxes="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+<list  applyTaxes="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
 	<npcs>
 		<npc>30283</npc> <!--Altran -->
 		<npc>30298</npc> <!--Pinter -->
@@ -334,5 +334,25 @@
 		<ingredient count="901680" id="57" />
 		<!-- Warsmith's Holder -->
 		<production count="1" id="5554" />
-	</item>
+	</item>	
+	<item>
+		<!-- Asofe -->
+		<ingredient id="4043" count="5" />
+		<!-- Mold Glue -->
+		<ingredient id="4039" count="10" />
+		<!-- Blacksmith Frame -->
+		<ingredient id="1892" count="1" />
+		<!-- Maestro Mold -->
+		<production id="4048" count="1" />
+	</item>	
+	<item>
+		<!-- Mold Lubricant -->
+		<ingredient id="4040" count="4" />
+		<!-- Mold Glue -->
+		<ingredient id="4039" count="4" />
+		<!-- Synthetic Cokes -->
+		<ingredient id="1888" count="4" />
+		<!-- Maestro Anvil Lock -->
+		<production id="4046" count="1" />
+	</item>	
 </list>
