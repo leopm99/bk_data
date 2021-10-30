@@ -3,7 +3,7 @@
 		
 	<item id="59800" type="Armor" name="Hero Red Cloak">
 		<!-- Description: Cloak that makes you feel Freya's chill. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Enchantment, attribute, and refining are impossible. Can be exchanged or dropped. -->
-		<set name="icon" val="BranchSys2.Icon.br_freya_cloak_i00" />
+		<set name="icon" val="fixicon.iconheroredcloak" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
 		<set name="crystal_type" val="S84" />
@@ -27,7 +27,7 @@
 	</item>	
 	<item id="59801" type="Armor" name="Beleth Cloak">
 		<!-- Description: Cloak that makes you feel Freya's chill. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Enchantment, attribute, and refining are impossible. Can be exchanged or dropped. -->
-		<set name="icon" val="BranchSys2.Icon.br_freya_cloak_i00" />
+		<set name="icon" val="fixicon.iconbelethcloak" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
 		<set name="crystal_type" val="S84" />
@@ -51,7 +51,7 @@
 	</item>	
 	<item id="59802" type="Armor" name="Duelist	Cloak">
 		<!-- Description: Cloak that makes you feel Freya's chill. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Enchantment, attribute, and refining are impossible. Can be exchanged or dropped. -->
-		<set name="icon" val="BranchSys2.Icon.br_freya_cloak_i00" />
+		<set name="icon" val="fixicon.iconduelistcloak" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
 		<set name="crystal_type" val="S84" />
@@ -75,7 +75,7 @@
 	</item>	
 	<item id="59803" type="Armor" name="Baratheon Cloak">
 		<!-- Description: Cloak that makes you feel Freya's chill. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Enchantment, attribute, and refining are impossible. Can be exchanged or dropped. -->
-		<set name="icon" val="BranchSys2.Icon.br_freya_cloak_i00" />
+		<set name="icon" val="light.viRUS_Icon.viRUS_Cl_01_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
 		<set name="crystal_type" val="S84" />
@@ -99,7 +99,7 @@
 	</item>	
 	<item id="59804" type="Armor" name="Stark Cloak">
 		<!-- Description: Cloak that makes you feel Freya's chill. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Enchantment, attribute, and refining are impossible. Can be exchanged or dropped. -->
-		<set name="icon" val="BranchSys2.Icon.br_freya_cloak_i00" />
+		<set name="icon" val="light.viRUS_Icon.viRUS_Cl_02_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
 		<set name="crystal_type" val="S84" />
@@ -123,7 +123,7 @@
 	</item>	
 	<item id="59805" type="Armor" name="Lannister Cloak">
 		<!-- Description: Cloak that makes you feel Freya's chill. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Enchantment, attribute, and refining are impossible. Can be exchanged or dropped. -->
-		<set name="icon" val="BranchSys2.Icon.br_freya_cloak_i00" />
+		<set name="icon" val="light.viRUS_Icon.viRUS_Cl_03_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
 		<set name="crystal_type" val="S84" />
@@ -147,7 +147,7 @@
 	</item>	
 	<item id="59806" type="Armor" name="Targaryen Cloak">
 		<!-- Description: Cloak that makes you feel Freya's chill. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Enchantment, attribute, and refining are impossible. Can be exchanged or dropped. -->
-		<set name="icon" val="BranchSys2.Icon.br_freya_cloak_i00" />
+		<set name="icon" val="light.viRUS_Icon.viRUS_Cl_04_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
 		<set name="crystal_type" val="S84" />
@@ -171,7 +171,7 @@
 	</item>	
 	<item id="59807" type="Armor" name="Airchip	Cloak">
 		<!-- Description: Cloak that makes you feel Freya's chill. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Enchantment, attribute, and refining are impossible. Can be exchanged or dropped. -->
-		<set name="icon" val="BranchSys2.Icon.br_freya_cloak_i00" />
+		<set name="icon" val="light.viRUS_Icon.viRUS_Cl_05_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
 		<set name="crystal_type" val="S84" />
@@ -195,7 +195,7 @@
 	</item>	
 	<item id="59808" type="Armor" name="Black Panter">
 		<!-- Description: Cloak that makes you feel Freya's chill. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Enchantment, attribute, and refining are impossible. Can be exchanged or dropped. -->
-		<set name="icon" val="BranchSys2.Icon.br_freya_cloak_i00" />
+		<set name="icon" val="light.viRUS_Icon.viRUS_Cl_06_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
 		<set name="crystal_type" val="S84" />
@@ -219,7 +219,7 @@
 	</item>	
 	<item id="59809" type="Armor" name="Angel Cloak">
 		<!-- Description: Cloak that makes you feel Freya's chill. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Enchantment, attribute, and refining are impossible. Can be exchanged or dropped. -->
-		<set name="icon" val="BranchSys2.Icon.br_freya_cloak_i00" />
+		<set name="icon" val="light.viRUS_Icon.viRUS_Cl_07_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
 		<set name="crystal_type" val="S84" />
@@ -243,7 +243,7 @@
 	</item>	
 	<item id="59810" type="Armor" name="Demon Cloak">
 		<!-- Description: Cloak that makes you feel Freya's chill. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Enchantment, attribute, and refining are impossible. Can be exchanged or dropped. -->
-		<set name="icon" val="BranchSys2.Icon.br_freya_cloak_i00" />
+		<set name="icon" val="fixicon.icongot4cloak" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
 		<set name="crystal_type" val="S84" />
@@ -267,7 +267,7 @@
 	</item>	
 	<item id="59811" type="Armor" name="Hero White Cloak">
 		<!-- Description: Cloak that makes you feel Freya's chill. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Enchantment, attribute, and refining are impossible. Can be exchanged or dropped. -->
-		<set name="icon" val="BranchSys2.Icon.br_freya_cloak_i00" />
+		<set name="icon" val="fixicon.iconherowhitecloak" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
 		<set name="crystal_type" val="S84" />
@@ -291,7 +291,7 @@
 	</item>	
 	<item id="59812" type="Armor" name="Hero Black Cloak">
 		<!-- Description: Cloak that makes you feel Freya's chill. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Enchantment, attribute, and refining are impossible. Can be exchanged or dropped. -->
-		<set name="icon" val="BranchSys2.Icon.br_freya_cloak_i00" />
+		<set name="icon" val="fixicon.iconheroblackcloak" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
 		<set name="crystal_type" val="S84" />
@@ -315,7 +315,7 @@
 	</item>	
 	<item id="59813" type="Armor" name="Dragon Cloak">
 		<!-- Description: Cloak that makes you feel Freya's chill. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Enchantment, attribute, and refining are impossible. Can be exchanged or dropped. -->
-		<set name="icon" val="BranchSys2.Icon.br_freya_cloak_i00" />
+		<set name="icon" val="fixicon.icondragoncloak" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
 		<set name="crystal_type" val="S84" />
@@ -339,7 +339,7 @@
 	</item>	
 	<item id="59814" type="Armor" name="Heaven	Cloak">
 		<!-- Description: Cloak that makes you feel Freya's chill. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Enchantment, attribute, and refining are impossible. Can be exchanged or dropped. -->
-		<set name="icon" val="BranchSys2.Icon.br_freya_cloak_i00" />
+		<set name="icon" val="fixicon.iconheavencloak" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
 		<set name="crystal_type" val="S84" />

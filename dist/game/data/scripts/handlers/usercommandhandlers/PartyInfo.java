@@ -18,6 +18,7 @@
  */
 package handlers.usercommandhandlers;
 
+import l2r.Config;
 import l2r.gameserver.handler.IUserCommandHandler;
 import l2r.gameserver.model.L2Party;
 import l2r.gameserver.model.actor.instance.L2PcInstance;
@@ -66,7 +67,7 @@ public class PartyInfo implements IUserCommandHandler
 					break;
 			}
 			
-			if (!party.isLeader(activeChar))
+			if (Config.PARTY_LEADER_ONLY_CAN_INVITE && !party.isLeader(activeChar))
 			{
 				final SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.PARTY_LEADER_C1);
 				sm.addPcName(party.getLeader());

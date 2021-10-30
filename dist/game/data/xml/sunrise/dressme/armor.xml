@@ -340,4 +340,820 @@
 		<set chest="30412" legs="30414" gloves="30416" feet="30417" />
 		<price id="57" count="2000000000" />
 	</dress>
+	<dress id="32001" name="Christmas Wear" type="HEAVY">
+		<set chest="32001" legs="32001" gloves="32001" feet="32001" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32001" name="Christmas Wear" type="LIGHT">
+		<set chest="32001" legs="32001" gloves="32001" feet="32001" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32001" name="Christmas Wear" type="ROBE">
+		<set chest="32001" legs="32001" gloves="32001" feet="32001" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32002" name="Vampire Suit" type="HEAVY">
+		<set chest="32002" legs="32002" gloves="32002" feet="32002" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32002" name="Vampire Suit" type="LIGHT">
+		<set chest="32002" legs="32002" gloves="32002" feet="32002" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32002" name="Vampire Suit" type="ROBE">
+		<set chest="32002" legs="32002" gloves="32002" feet="32002" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32003" name="Camouflage Suit" type="HEAVY">
+		<set chest="32003" legs="32003" gloves="32003" feet="32003" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32003" name="Camouflage Suit" type="LIGHT">
+		<set chest="32003" legs="32003" gloves="32003" feet="32003" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32003" name="Camouflage Suit" type="ROBE">
+		<set chest="32003" legs="32003" gloves="32003" feet="32003" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32004" name="Maids Suit" type="HEAVY">
+		<set chest="32004" legs="32004" gloves="32004" feet="32004" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32004" name="Maids Suit" type="LIGHT">
+		<set chest="32004" legs="32004" gloves="32004" feet="32004" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32004" name="Maids Suit" type="ROBE">
+		<set chest="32004" legs="32004" gloves="32004" feet="32004" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32005" name="Shadows Suit" type="HEAVY">
+		<set chest="32005" legs="32005" gloves="32005" feet="32005" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32005" name="Shadows Suit" type="LIGHT">
+		<set chest="32005" legs="32005" gloves="32005" feet="32005" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32005" name="Shadows Suit" type="ROBE">
+		<set chest="32005" legs="32005" gloves="32005" feet="32005" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32006" name="Chinese Suit" type="HEAVY">
+		<set chest="32006" legs="32006" gloves="32006" feet="32006" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32006" name="Chinese Suit" type="LIGHT">
+		<set chest="32006" legs="32006" gloves="32006" feet="32006" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32006" name="Chinese Suit" type="ROBE">
+		<set chest="32006" legs="32006" gloves="32006" feet="32006" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32007" name="Chinese Suit" type="HEAVY">
+		<set chest="32007" legs="32007" gloves="32007" feet="32007" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32007" name="Chinese Suit" type="LIGHT">
+		<set chest="32007" legs="32007" gloves="32007" feet="32007" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32007" name="Chinese Suit" type="ROBE">
+		<set chest="32007" legs="32007" gloves="32007" feet="32007" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32008" name="Chinese Suit" type="HEAVY">
+		<set chest="32008" legs="32008" gloves="32008" feet="32008" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32008" name="Chinese Suit" type="LIGHT">
+		<set chest="32008" legs="32008" gloves="32008" feet="32008" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32008" name="Chinese Suit" type="ROBE">
+		<set chest="32008" legs="32008" gloves="32008" feet="32008" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32009" name="Chinese Suit" type="HEAVY">
+		<set chest="32009" legs="32009" gloves="32009" feet="32009" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32009" name="Chinese Suit" type="LIGHT">
+		<set chest="32009" legs="32009" gloves="32009" feet="32009" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32009" name="Chinese Suit" type="ROBE">
+		<set chest="32009" legs="32009" gloves="32009" feet="32009" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32009" name="Chinese Suit" type="HEAVY">
+		<set chest="32009" legs="32009" gloves="32009" feet="32009" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32009" name="Chinese Suit" type="LIGHT">
+		<set chest="32009" legs="32009" gloves="32009" feet="32009" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32009" name="Chinese Suit" type="ROBE">
+		<set chest="32009" legs="32009" gloves="32009" feet="32009" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32010" name="Swimwear Suit" type="HEAVY">
+		<set chest="32010" legs="32010" gloves="32010" feet="32010" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32010" name="Swimwear Suit" type="LIGHT">
+		<set chest="32010" legs="32010" gloves="32010" feet="32010" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32010" name="Swimwear Suit" type="ROBE">
+		<set chest="32010" legs="32010" gloves="32010" feet="32010" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32011" name="Swimwear Suit" type="HEAVY">
+		<set chest="32011" legs="32011" gloves="32011" feet="32011" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32011" name="Swimwear Suit" type="LIGHT">
+		<set chest="32011" legs="32011" gloves="32011" feet="32011" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32011" name="Swimwear Suit" type="ROBE">
+		<set chest="32011" legs="32011" gloves="32011" feet="32011" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32012" name="Swimwear Suit" type="HEAVY">
+		<set chest="32012" legs="32012" gloves="32012" feet="32012" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32012" name="Swimwear Suit" type="LIGHT">
+		<set chest="32012" legs="32012" gloves="32012" feet="32012" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32012" name="Swimwear Suit" type="ROBE">
+		<set chest="32012" legs="32012" gloves="32012" feet="32012" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32013" name="Swimwear Suit" type="HEAVY">
+		<set chest="32013" legs="32013" gloves="32013" feet="32013" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32013" name="Swimwear Suit" type="LIGHT">
+		<set chest="32013" legs="32013" gloves="32013" feet="32013" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32013" name="Swimwear Suit" type="ROBE">
+		<set chest="32013" legs="32013" gloves="32013" feet="32013" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32014" name="Swimwear Suit" type="HEAVY">
+		<set chest="32014" legs="32014" gloves="32014" feet="32014" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32014" name="Swimwear Suit" type="LIGHT">
+		<set chest="32014" legs="32014" gloves="32014" feet="32014" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32014" name="Swimwear Suit" type="ROBE">
+		<set chest="32014" legs="32014" gloves="32014" feet="32014" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32015" name="Swimwear Suit" type="HEAVY">
+		<set chest="32015" legs="32015" gloves="32015" feet="32015" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32015" name="Swimwear Suit" type="LIGHT">
+		<set chest="32015" legs="32015" gloves="32015" feet="32015" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32015" name="Swimwear Suit" type="ROBE">
+		<set chest="32015" legs="32015" gloves="32015" feet="32015" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32016" name="Underwear Suit" type="HEAVY">
+		<set chest="32016" legs="32016" gloves="32016" feet="32016" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32016" name="Underwear Suit" type="LIGHT">
+		<set chest="32016" legs="32016" gloves="32016" feet="32016" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32016" name="Underwear Suit" type="ROBE">
+		<set chest="32016" legs="32016" gloves="32016" feet="32016" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32017" name="Underwear Suit" type="HEAVY">
+		<set chest="32017" legs="32017" gloves="32017" feet="32017" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32017" name="Underwear Suit" type="LIGHT">
+		<set chest="32017" legs="32017" gloves="32017" feet="32017" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32017" name="Underwear Suit" type="ROBE">
+		<set chest="32017" legs="32017" gloves="32017" feet="32017" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32018" name="Underwear Suit" type="HEAVY">
+		<set chest="32018" legs="32018" gloves="32018" feet="32018" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32018" name="Underwear Suit" type="LIGHT">
+		<set chest="32018" legs="32018" gloves="32018" feet="32018" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32018" name="Underwear Suit" type="ROBE">
+		<set chest="32018" legs="32018" gloves="32018" feet="32018" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32019" name="Ciborg Suit" type="HEAVY">
+		<set chest="32019" legs="32019" gloves="32019" feet="32019" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32019" name="Ciborg Suit" type="LIGHT">
+		<set chest="32019" legs="32019" gloves="32019" feet="32019" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32019" name="Ciborg Suit" type="ROBE">
+		<set chest="32019" legs="32019" gloves="32019" feet="32019" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32020" name="White Assasian Suit" type="HEAVY">
+		<set chest="32020" legs="32020" gloves="32020" feet="32020" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32020" name="White Assasian Suit" type="LIGHT">
+		<set chest="32020" legs="32020" gloves="32020" feet="32020" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32020" name="White Assasian Suit" type="ROBE">
+		<set chest="32020" legs="32020" gloves="32020" feet="32020" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32021" name="Dark Assasian Suit" type="HEAVY">
+		<set chest="32021" legs="32021" gloves="32021" feet="32021" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32021" name="Dark Assasian Suit" type="LIGHT">
+		<set chest="32021" legs="32021" gloves="32021" feet="32021" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32021" name="Dark Assasian Suit" type="ROBE">
+		<set chest="32021" legs="32021" gloves="32021" feet="32021" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32022" name="Red Zaken Suit" type="HEAVY">
+		<set chest="32022" legs="32022" gloves="32022" feet="32022" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32022" name="Red Zaken Suit" type="LIGHT">
+		<set chest="32022" legs="32022" gloves="32022" feet="32022" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32022" name="Red Zaken Suit" type="ROBE">
+		<set chest="32022" legs="32022" gloves="32022" feet="32022" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32023" name="Pirate Suit" type="HEAVY">
+		<set chest="32023" legs="32023" gloves="32023" feet="32023" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32023" name="Pirate Suit" type="LIGHT">
+		<set chest="32023" legs="32023" gloves="32023" feet="32023" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32023" name="Pirate Suit" type="ROBE">
+		<set chest="32023" legs="32023" gloves="32023" feet="32023" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32024" name="Musketeer Suit" type="HEAVY">
+		<set chest="32024" legs="32024" gloves="32024" feet="32024" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32024" name="Musketeer Suit" type="LIGHT">
+		<set chest="32024" legs="32024" gloves="32024" feet="32024" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32024" name="Musketeer Suit" type="ROBE">
+		<set chest="32024" legs="32024" gloves="32024" feet="32024" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32025" name="Lord Suit" type="HEAVY">
+		<set chest="32025" legs="32025" gloves="32025" feet="32025" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32025" name="Lord Suit" type="LIGHT">
+		<set chest="32025" legs="32025" gloves="32025" feet="32025" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32025" name="Lord Suit" type="ROBE">
+		<set chest="32025" legs="32025" gloves="32025" feet="32025" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32028" name="Cowboy Suit" type="HEAVY">
+		<set chest="32028" legs="32028" gloves="32028" feet="32028" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32028" name="Cowboy Suit" type="LIGHT">
+		<set chest="32028" legs="32028" gloves="32028" feet="32028" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32028" name="Cowboy Suit" type="ROBE">
+		<set chest="32028" legs="32028" gloves="32028" feet="32028" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32029" name="Wizard Green Suit" type="HEAVY">
+		<set chest="32029" legs="32029" gloves="32029" feet="32029" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32029" name="Wizard Green Suit" type="LIGHT">
+		<set chest="32029" legs="32029" gloves="32029" feet="32029" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32029" name="Wizard Green Suit" type="ROBE">
+		<set chest="32029" legs="32029" gloves="32029" feet="32029" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32030" name="Wizard Purple Suit" type="HEAVY">
+		<set chest="32030" legs="32030" gloves="32030" feet="32030" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32030" name="Wizard Purple Suit" type="LIGHT">
+		<set chest="32030" legs="32030" gloves="32030" feet="32030" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32030" name="Wizard Purple Suit" type="ROBE">
+		<set chest="32030" legs="32030" gloves="32030" feet="32030" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32031" name="Musketeer Suit" type="HEAVY">
+		<set chest="32031" legs="32031" gloves="32031" feet="32031" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32031" name="Musketeer Suit" type="LIGHT">
+		<set chest="32031" legs="32031" gloves="32031" feet="32031" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32031" name="Musketeer Suit" type="ROBE">
+		<set chest="32031" legs="32031" gloves="32031" feet="32031" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32032" name="Anakim Suit" type="HEAVY">
+		<set chest="32032" legs="32032" gloves="32032" feet="32031" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32032" name="Anakim Suit" type="LIGHT">
+		<set chest="32032" legs="32032" gloves="32032" feet="32032" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32032" name="Anakim Suit" type="ROBE">
+		<set chest="32032" legs="32032" gloves="32032" feet="32032" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32033" name="Samurai Suit" type="HEAVY">
+		<set chest="32033" legs="32033" gloves="32033" feet="32033" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32033" name="Samurai Suit" type="LIGHT">
+		<set chest="32033" legs="32033" gloves="32033" feet="32033" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32033" name="Samurai Suit" type="ROBE">
+		<set chest="32033" legs="32033" gloves="32033" feet="32033" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32034" name="Beleth Suit" type="HEAVY">
+		<set chest="32034" legs="32034" gloves="32034" feet="32034" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32034" name="Beleth Suit" type="LIGHT">
+		<set chest="32034" legs="32034" gloves="32034" feet="32034" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32034" name="Beleth Suit" type="ROBE">
+		<set chest="32034" legs="32034" gloves="32034" feet="32034" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32035" name="TrackSuits" type="HEAVY">
+		<set chest="32035" legs="32035" gloves="32035" feet="32035" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32035" name="TrackSuits" type="LIGHT">
+		<set chest="32035" legs="32035" gloves="32035" feet="32035" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32035" name="TrackSuits" type="ROBE">
+		<set chest="32035" legs="32035" gloves="32035" feet="32035" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32036" name="TrackSuits" type="HEAVY">
+		<set chest="32036" legs="32036" gloves="32036" feet="32036" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32036" name="TrackSuits" type="LIGHT">
+		<set chest="32036" legs="32036" gloves="32036" feet="32036" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32036" name="TrackSuits" type="ROBE">
+		<set chest="32036" legs="32036" gloves="32036" feet="32036" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32037" name="TrackSuits" type="HEAVY">
+		<set chest="32037" legs="32037" gloves="32037" feet="32037" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32037" name="TrackSuits" type="LIGHT">
+		<set chest="32037" legs="32037" gloves="32037" feet="32037" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32037" name="TrackSuits" type="ROBE">
+		<set chest="32037" legs="32037" gloves="32037" feet="32037" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32038" name="Fancy Suit" type="HEAVY">
+		<set chest="32038" legs="32038" gloves="32038" feet="32038" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32038" name="Fancy Suit" type="LIGHT">
+		<set chest="32038" legs="32038" gloves="32038" feet="32038" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32038" name="Fancy Suit" type="ROBE">
+		<set chest="32038" legs="32038" gloves="32038" feet="32038" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32039" name="Navy Suit" type="HEAVY">
+		<set chest="32039" legs="32039" gloves="32039" feet="32039" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32039" name="Navy Suit" type="LIGHT">
+		<set chest="32039" legs="32039" gloves="32039" feet="32039" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32039" name="Navy Suit" type="ROBE">
+		<set chest="32039" legs="32039" gloves="32039" feet="32039" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32040" name="Archer Green Suit" type="HEAVY">
+		<set chest="32040" legs="32040" gloves="32040" feet="32040" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32040" name="Archer Green Suit" type="LIGHT">
+		<set chest="32040" legs="32040" gloves="32040" feet="32040" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32040" name="Archer Green Suit" type="ROBE">
+		<set chest="32040" legs="32040" gloves="32040" feet="32040" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32041" name="Wizard Red Suit" type="HEAVY">
+		<set chest="32041" legs="32041" gloves="32041" feet="32041" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32041" name="Wizard Red Suit" type="LIGHT">
+		<set chest="32041" legs="32041" gloves="32041" feet="32041" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32041" name="Wizard Red Suit" type="ROBE">
+		<set chest="32041" legs="32041" gloves="32041" feet="32041" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32042" name="Cat Suit" type="HEAVY">
+		<set chest="32042" legs="32042" gloves="32042" feet="32042" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32042" name="Cat Suit" type="LIGHT">
+		<set chest="32042" legs="32042" gloves="32042" feet="32042" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32042" name="Cat Suit" type="ROBE">
+		<set chest="32042" legs="32042" gloves="32042" feet="32042" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32043" name="Archer Red Suit" type="HEAVY">
+		<set chest="32043" legs="32043" gloves="32043" feet="32043" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32043" name="Archer Red Suit" type="LIGHT">
+		<set chest="32043" legs="32043" gloves="32043" feet="32043" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32043" name="Archer Red Suit" type="ROBE">
+		<set chest="32043" legs="32043" gloves="32043" feet="32043" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32044" name="Lord White Suit" type="HEAVY">
+		<set chest="32044" legs="32044" gloves="32044" feet="32044" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32044" name="Lord White Suit" type="LIGHT">
+		<set chest="32044" legs="32044" gloves="32044" feet="32044" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32044" name="Lord White Suit" type="ROBE">
+		<set chest="32044" legs="32044" gloves="32044" feet="32044" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32045" name="Halloween Suit" type="HEAVY">
+		<set chest="32045" legs="32045" gloves="32045" feet="32045" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32045" name="Halloween Suit" type="LIGHT">
+		<set chest="32045" legs="32045" gloves="32045" feet="32045" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32045" name="Halloween Suit" type="ROBE">
+		<set chest="32045" legs="32045" gloves="32045" feet="32045" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32046" name="Ice Queen Suit" type="HEAVY">
+		<set chest="32046" legs="32046" gloves="32046" feet="32046" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32046" name="Ice Queen Suit" type="LIGHT">
+		<set chest="32046" legs="32046" gloves="32046" feet="32046" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32046" name="Ice Queen Suit" type="ROBE">
+		<set chest="32046" legs="32046" gloves="32046" feet="32046" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32047" name="Dark Lord Suit" type="HEAVY">
+		<set chest="32047" legs="32047" gloves="32047" feet="32047" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32047" name="Dark Lord Suit" type="LIGHT">
+		<set chest="32047" legs="32047" gloves="32047" feet="32047" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32047" name="Dark Lord Suit" type="ROBE">
+		<set chest="32047" legs="32047" gloves="32047" feet="32047" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32048" name="Taiwan Suit" type="HEAVY">
+		<set chest="32048" legs="32048" gloves="32048" feet="32048" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32048" name="Taiwan Suit" type="LIGHT">
+		<set chest="32048" legs="32048" gloves="32048" feet="32048" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32048" name="Taiwan Suit" type="ROBE">
+		<set chest="32048" legs="32048" gloves="32048" feet="32048" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32049" name="Blue Zaken Suit" type="HEAVY">
+		<set chest="32049" legs="32049" gloves="32049" feet="32049" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32049" name="Blue Zaken Suit" type="LIGHT">
+		<set chest="32049" legs="32049" gloves="32049" feet="32049" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32049" name="Blue Zaken Suit" type="ROBE">
+		<set chest="32049" legs="32049" gloves="32049" feet="32049" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32800" name="Healer Suit" type="HEAVY">
+		<set chest="32800" legs="32800" gloves="32800" feet="32800" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32800" name="Healer Suit" type="LIGHT">
+		<set chest="32800" legs="32800" gloves="32800" feet="32800" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32800" name="Healer Suit" type="ROBE">
+		<set chest="32800" legs="32800" gloves="32800" feet="32800" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32801" name="White Knight Suit" type="HEAVY">
+		<set chest="32801" legs="32801" gloves="32801" feet="32801" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32801" name="White Knight Suit" type="LIGHT">
+		<set chest="32801" legs="32801" gloves="32801" feet="32801" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32801" name="White Knight Suit" type="ROBE">
+		<set chest="32801" legs="32801" gloves="32801" feet="32801" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32802" name="Barbarian Suit" type="HEAVY">
+		<set chest="32802" legs="32802" gloves="32802" feet="32802" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32802" name="Barbarian Suit" type="LIGHT">
+		<set chest="32802" legs="32802" gloves="32802" feet="32802" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32802" name="Barbarian Suit" type="ROBE">
+		<set chest="32802" legs="32802" gloves="32802" feet="32802" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32803" name="Chevalier Suit" type="HEAVY">
+		<set chest="32803" legs="32803" gloves="32803" feet="32803" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32803" name="Chevalier Suit" type="LIGHT">
+		<set chest="32803" legs="32803" gloves="32803" feet="32803" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32803" name="Chevalier Suit" type="ROBE">
+		<set chest="32803" legs="32803" gloves="32803" feet="32803" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32804" name="Chevalier Suit" type="HEAVY">
+		<set chest="32804" legs="32804" gloves="32804" feet="32804" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32804" name="Chevalier Suit" type="LIGHT">
+		<set chest="32804" legs="32804" gloves="32804" feet="32804" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32804" name="Chevalier Suit" type="ROBE">
+		<set chest="32804" legs="32804" gloves="32804" feet="32804" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32805" name="Valkirye Suit" type="HEAVY">
+		<set chest="32805" legs="32805" gloves="32805" feet="32805" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32805" name="Valkirye Suit" type="LIGHT">
+		<set chest="32805" legs="32805" gloves="32805" feet="32805" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32805" name="Valkirye Suit" type="ROBE">
+		<set chest="32805" legs="32805" gloves="32805" feet="32805" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32806" name="Bear Suit" type="HEAVY">
+		<set chest="32806" legs="32806" gloves="32806" feet="32806" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32806" name="Bear Suit" type="LIGHT">
+		<set chest="32806" legs="32806" gloves="32806" feet="32806" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32806" name="Bear Suit" type="ROBE">
+		<set chest="32806" legs="32806" gloves="32806" feet="32806" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32807" name="Catlike Suit" type="HEAVY">
+		<set chest="32807" legs="32807" gloves="32807" feet="32807" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32807" name="Catlike Suit" type="LIGHT">
+		<set chest="32807" legs="32807" gloves="32807" feet="32807" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32807" name="Catlike Suit" type="ROBE">
+		<set chest="32807" legs="32807" gloves="32807" feet="32807" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32808" name="Catlike Suit" type="HEAVY">
+		<set chest="32808" legs="32808" gloves="32808" feet="32808" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32808" name="Catlike Suit" type="LIGHT">
+		<set chest="32808" legs="32808" gloves="32808" feet="32808" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32808" name="Catlike Suit" type="ROBE">
+		<set chest="32808" legs="32808" gloves="32808" feet="32808" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32809" name="Grand Vampire Suit" type="HEAVY">
+		<set chest="32809" legs="32809" gloves="32809" feet="32809" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32809" name="Grand Vampire Suit" type="LIGHT">
+		<set chest="32809" legs="32809" gloves="32809" feet="32809" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32809" name="Grand Vampire Suit" type="ROBE">
+		<set chest="32809" legs="32809" gloves="32809" feet="32809" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32810" name="Black Suit" type="HEAVY">
+		<set chest="32810" legs="32810" gloves="32810" feet="32810" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32810" name="Black Suit" type="LIGHT">
+		<set chest="32810" legs="32810" gloves="32810" feet="32810" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32810" name="Black Suit" type="ROBE">
+		<set chest="32810" legs="32810" gloves="32810" feet="32810" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32811" name="Panda Suit" type="HEAVY">
+		<set chest="32811" legs="32811" gloves="32811" feet="32811" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32811" name="Panda Suit" type="LIGHT">
+		<set chest="32811" legs="32811" gloves="32811" feet="32811" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32811" name="Panda Suit" type="ROBE">
+		<set chest="32811" legs="32811" gloves="32811" feet="32811" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32812" name="Feline Suit" type="HEAVY">
+		<set chest="32812" legs="32812" gloves="32812" feet="32812" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32812" name="Feline Suit" type="LIGHT">
+		<set chest="32812" legs="32812" gloves="32812" feet="32812" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32812" name="Feline Suit" type="ROBE">
+		<set chest="32812" legs="32812" gloves="32812" feet="32812" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32813" name="Grand Zaken Suit" type="HEAVY">
+		<set chest="32813" legs="32813" gloves="32813" feet="32813" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32813" name="Grand Zaken Suit" type="LIGHT">
+		<set chest="32813" legs="32813" gloves="32813" feet="32813" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32813" name="Grand Zaken Suit" type="ROBE">
+		<set chest="32813" legs="32813" gloves="32813" feet="32813" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32814" name="Dragon Knight Suit" type="HEAVY">
+		<set chest="32814" legs="32814" gloves="32814" feet="32814" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32814" name="Dragon Knight Suit" type="LIGHT">
+		<set chest="32814" legs="32814" gloves="32814" feet="32814" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32814" name="Dragon Knight Suit" type="ROBE">
+		<set chest="32814" legs="32814" gloves="32814" feet="32814" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32815" name="Akamanah Suit" type="HEAVY">
+		<set chest="32815" legs="32815" gloves="32815" feet="32815" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32815" name="Akamanah Suit" type="LIGHT">
+		<set chest="32815" legs="32815" gloves="32815" feet="32815" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32815" name="Akamanah Suit" type="ROBE">
+		<set chest="32815" legs="32815" gloves="32815" feet="32815" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32816" name="Zariche Suit" type="HEAVY">
+		<set chest="32816" legs="32816" gloves="32816" feet="32816" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32816" name="Zariche Suit" type="LIGHT">
+		<set chest="32816" legs="32816" gloves="32816" feet="32816" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32816" name="Zariche Suit" type="ROBE">
+		<set chest="32816" legs="32816" gloves="32816" feet="32816" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32817" name="Alice Wonderland Suit" type="HEAVY">
+		<set chest="32817" legs="32817" gloves="32817" feet="32817" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32817" name="Alice Wonderland Suit" type="LIGHT">
+		<set chest="32817" legs="32817" gloves="32817" feet="32817" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32817" name="Alice Wonderland Suit" type="ROBE">
+		<set chest="32817" legs="32817" gloves="32817" feet="32817" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32818" name="Demon Windged Suit" type="HEAVY">
+		<set chest="32818" legs="32818" gloves="32818" feet="32818" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32818" name="Demon Windged Suit" type="LIGHT">
+		<set chest="32818" legs="32818" gloves="32818" feet="32818" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32818" name="Demon Windged Suit" type="ROBE">
+		<set chest="32818" legs="32818" gloves="32818" feet="32818" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32819" name="Clown Suit" type="HEAVY">
+		<set chest="32819" legs="32819" gloves="32819" feet="32819" />
+		<price id="57" count="2000000000" />
+	</dress>
+    <dress id="32819" name="Clown Suit" type="LIGHT">
+		<set chest="32819" legs="32819" gloves="32819" feet="32819" />
+		<price id="57" count="2000000000" />
+	</dress>
+	<dress id="32819" name="Clown Suit" type="ROBE">
+		<set chest="32819" legs="32819" gloves="32819" feet="32819" />
+		<price id="57" count="2000000000" />
+	</dress>
 </list>

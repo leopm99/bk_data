@@ -1203,76 +1203,76 @@
 	<weapon id="9813" name="Orc Officer" type="DUAL">
 		<price id="57" count="1000000000" />
 	</weapon>
-	<weapon id="100000" name="Antharas Avenger" type="BLUNT">
+	<weapon id="30600" name="Antharas Avenger" type="BLUNT">
 		<price id="57" count="1000000000" />
 	</weapon>
-	<weapon id="100001" name="Antharas Buster" type="SWORD">
+	<weapon id="30601" name="Antharas Buster" type="SWORD">
 		<price id="57" count="1000000000" />
 	</weapon>
-	<weapon id="100002" name="Antharas Cutter" type="SWORD">
+	<weapon id="30602" name="Antharas Cutter" type="SWORD">
 		<price id="57" count="1000000000" />
 	</weapon>
-	<weapon id="100003" name="Antharas Dual Blunt" type="DUAL">
+	<weapon id="30603" name="Antharas Dual Blunt" type="DUAL">
 		<price id="57" count="1000000000" />
 	</weapon>
-	<weapon id="100004" name="Antharas Dual Sword" type="DUAL">
+	<weapon id="30604" name="Antharas Dual Sword" type="DUAL">
 		<price id="57" count="1000000000" />
 	</weapon>
-	<weapon id="100005" name="Antharas Fighter" type="DUALFIST">
+	<weapon id="30605" name="Antharas Fighter" type="DUALFIST">
 		<price id="57" count="1000000000" />
 	</weapon>
-	<weapon id="100006" name="Antharas Shaper" type="DAGGER">
+	<weapon id="30606" name="Antharas Shaper" type="DAGGER">
 		<price id="57" count="1000000000" />
 	</weapon>
-	<weapon id="100007" name="Antharas Slasher" type="SWORD" isBig="true">
+	<weapon id="30607" name="Antharas Slasher" type="SWORD" isBig="true">
 		<price id="57" count="1000000000" />
 	</weapon>
-	<weapon id="100008" name="Antharas Stormer" type="POLE">
+	<weapon id="30608" name="Antharas Stormer" type="POLE">
 		<price id="57" count="1000000000" />
 	</weapon>
-	<weapon id="100009" name="Antharas Thrower" type="BOW">
+	<weapon id="30609" name="Antharas Thrower" type="BOW">
 		<price id="57" count="1000000000" />
 	</weapon>
-	<weapon id="101000" name="Valakas Buster" type="SWORD">
+	<weapon id="30610" name="Valakas Buster" type="SWORD">
 		<price id="57" count="1000000000" />
 	</weapon>
-	<weapon id="101001" name="Valakas Caster" type="BLUNT">
+	<weapon id="30611" name="Valakas Caster" type="BLUNT">
 		<price id="57" count="1000000000" />
 	</weapon>
-	<weapon id="101002" name="Valakas Cutter" type="SWORD">
+	<weapon id="30612" name="Valakas Cutter" type="SWORD">
 		<price id="57" count="1000000000" />
 	</weapon>
-	<weapon id="101003" name="Valakas Retributer" type="BLUNT" isBig="true">
+	<weapon id="30613" name="Valakas Retributer" type="BLUNT" isBig="true">
 		<price id="57" count="1000000000" />
 	</weapon>
-	<weapon id="101004" name="Valakas Shaper" type="DAGGER">
+	<weapon id="30614" name="Valakas Shaper" type="DAGGER">
 		<price id="57" count="1000000000" />
 	</weapon>
-	<weapon id="101005" name="Valakas Slasher" type="SWORD" isBig="true">
+	<weapon id="30615" name="Valakas Slasher" type="SWORD" isBig="true">
 		<price id="57" count="1000000000" />
 	</weapon>
-	<weapon id="101006" name="Valakas Thrower" type="BOW">
+	<weapon id="30616" name="Valakas Thrower" type="BOW">
 		<price id="57" count="1000000000" />
 	</weapon>
-	<weapon id="102000" name="Lindvior Caster" type="BLUNT">
+	<weapon id="30617" name="Lindvior Caster" type="BLUNT">
 		<price id="57" count="1000000000" />
 	</weapon>
-	<weapon id="102001" name="Lindvior Cutter" type="SWORD">
+	<weapon id="30618" name="Lindvior Cutter" type="SWORD">
 		<price id="57" count="1000000000" />
 	</weapon>
-	<weapon id="102002" name="Lindvior Dual Daggers" type="DUALDAGGER">
+	<weapon id="30619" name="Lindvior Dual Daggers" type="DUALDAGGER">
 		<price id="57" count="1000000000" />
 	</weapon>
-	<weapon id="102003" name="Lindvior Shaper" type="DAGGER">
+	<weapon id="30620" name="Lindvior Shaper" type="DAGGER">
 		<price id="57" count="1000000000" />
 	</weapon>
-	<weapon id="102004" name="Lindvior Shooter" type="CROSSBOW">
+	<weapon id="30621" name="Lindvior Shooter" type="CROSSBOW">
 		<price id="57" count="1000000000" />
 	</weapon>
-	<weapon id="102005" name="Lindvior Slasher" type="SWORD" isBig="true">
+	<weapon id="30622" name="Lindvior Slasher" type="SWORD" isBig="true">
 		<price id="57" count="1000000000" />
 	</weapon>
-	<weapon id="102006" name="Lindvior Thrower" type="BOW">
+	<weapon id="30623" name="Lindvior Thrower" type="BOW">
 		<price id="57" count="1000000000" />
 	</weapon>
 	

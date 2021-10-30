@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
-		<item id="34020" type="Armor" name="Baium Hair">
+		<item id="32850" type="Armor" name="Baium Hair">
 		<set name="icon" val="icon.accessory_magic_cap_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />

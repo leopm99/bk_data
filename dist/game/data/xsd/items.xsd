@@ -167,6 +167,7 @@
 			<xs:enumeration value="pAtkAngle" />
 			<xs:enumeration value="pAtkRange" />
 			<xs:enumeration value="pAtkSpd" />
+			<xs:enumeration value="mAtkSpd" />
 			<xs:enumeration value="critRate" />
 			<xs:enumeration value="rShld" />
 			<xs:enumeration value="rEvas" />
@@ -177,6 +178,7 @@
 			<xs:enumeration value="holyPower" />
 			<xs:enumeration value="holyRes" />
 			<xs:enumeration value="maxMp" />
+			<xs:enumeration value="regMp" />
 			<xs:enumeration value="waterRes" />
 			<xs:enumeration value="windRes" />
 			<xs:enumeration value="magicSuccRes" />

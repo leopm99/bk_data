@@ -27,4 +27,82 @@
 	<hat number="9" id="8919" name="First Mate's Hat" slot="3"> <!-- Full Hair -->
 		<price id="57" count="500000000" />
 	</hat>
+	<hat number="32820" id="32820" name="Healer Hat" slot="1"> <!-- Full Hair -->
+		<price id="57" count="500000000" />
+	</hat>	
+	<hat number="32821" id="32821" name="White Knight Hat" slot="1"> <!-- Full Hair -->
+		<price id="57" count="500000000" />
+	</hat>	
+	<hat number="32822" id="32822" name="Barbarian Hat" slot="1"> <!-- Full Hair -->
+		<price id="57" count="500000000" />
+	</hat>	
+	<hat number="32823" id="32823" name="Chevalier Hat" slot="1"> <!-- Full Hair -->
+		<price id="57" count="500000000" />
+	</hat>	
+	<hat number="32824" id="32824" name="Grand Chevalier Hat" slot="1"> <!-- Full Hair -->
+		<price id="57" count="500000000" />
+	</hat>	
+	<hat number="32825" id="32825" name="Valkirye Hat" slot="1"> <!-- Full Hair -->
+		<price id="57" count="500000000" />
+	</hat>	
+	<hat number="32826" id="32826" name="Bear's Hat" slot="1"> <!-- Full Hair -->
+		<price id="57" count="500000000" />
+	</hat>	
+	<hat number="32827" id="32827" name="Catlike Hat" slot="1"> <!-- Full Hair -->
+		<price id="57" count="500000000" />
+	</hat>	
+	<hat number="32828" id="32828" name="Catlike Hat" slot="1"> <!-- Full Hair -->
+		<price id="57" count="500000000" />
+	</hat>	
+	<hat number="32830" id="32830" name="Vampire's Hat" slot="1"> <!-- Full Hair -->
+		<price id="57" count="500000000" />
+	</hat>	
+	<hat number="32831" id="32831" name="Panda Hat" slot="1"> <!-- Full Hair -->
+		<price id="57" count="500000000" />
+	</hat>	
+	<hat number="32832" id="32832" name="Feline Hat" slot="1"> <!-- Full Hair -->
+		<price id="57" count="500000000" />
+	</hat>	
+	<hat number="32835" id="32835" name="Baium Hat" slot="1"> <!-- Full Hair -->
+		<price id="57" count="500000000" />
+	</hat>	
+	<hat number="32837" id="32837" name="Dragon Knight Hat" slot="1"> <!-- Full Hair -->
+		<price id="57" count="500000000" />
+	</hat>	
+	<hat number="32838" id="32838" name="Akmanah Hat" slot="1"> <!-- Full Hair -->
+		<price id="57" count="500000000" />
+	</hat>	
+	<hat number="32839" id="32839" name="Zarich Hat" slot="1"> <!-- Full Hair -->
+		<price id="57" count="500000000" />
+	</hat>	
+	<hat number="32840" id="32840" name="Alice Wonderlands Hat" slot="1"> <!-- Full Hair -->
+		<price id="57" count="500000000" />
+	</hat>	
+	<hat number="32841" id="32841" name="Grand Windged Hat" slot="1"> <!-- Full Hair -->
+		<price id="57" count="500000000" />
+	</hat>	
+	<hat number="32842" id="32842" name="Clown Hat" slot="1"> <!-- Full Hair -->
+		<price id="57" count="500000000" />
+	</hat>	
+	<hat number="32843" id="32843" name="Joker  Hat" slot="1"> <!-- Full Hair -->
+		<price id="57" count="500000000" />
+	</hat>	
+	<hat number="32844" id="32844" name="The Zorro Hat" slot="1"> <!-- Full Hair -->
+		<price id="57" count="500000000" />
+	</hat>	
+	<hat number="32845" id="32845" name="The Police Hat" slot="1"> <!-- Full Hair -->
+		<price id="57" count="500000000" />
+	</hat>	
+	<hat number="32846" id="32846" name="Aviator Glasses Hat" slot="1"> <!-- Full Hair -->
+		<price id="57" count="500000000" />
+	</hat>	
+	<hat number="32847" id="32847" name="Mariachi Hat" slot="1"> <!-- Full Hair -->
+		<price id="57" count="500000000" />
+	</hat>	
+	<hat number="32848" id="32848" name="Bandanna Hat" slot="1"> <!-- Full Hair -->
+		<price id="57" count="500000000" />
+	</hat>	
+	<hat number="32849" id="32849" name="Covid19 Mask" slot="1"> <!-- Full Hair -->
+		<price id="57" count="500000000" />
+	</hat>	
 </list>
