@@ -308,6 +308,7 @@ import handlers.voicedcommandhandlers.OpenAtod;
 import handlers.voicedcommandhandlers.PingVCmd;
 import handlers.voicedcommandhandlers.PremiumVCmd;
 import handlers.voicedcommandhandlers.PvpZoneVCmd;
+import handlers.voicedcommandhandlers.Quiz;
 import handlers.voicedcommandhandlers.RepairVCmd;
 import handlers.voicedcommandhandlers.TeleportsVCmd;
 import handlers.voicedcommandhandlers.Wedding;
@@ -661,6 +662,7 @@ public class MasterHandler
 		(ChaoticZoneConfigs.ENABLE_CHAOTIC_ZONE ? PvpZoneVCmd.class : null),
 		(CustomServerConfigs.ALLOW_REPAIR_COMMAND ? RepairVCmd.class : null),
 		(CustomServerConfigs.ALLOW_TELEPORTS_COMMAND ? TeleportsVCmd.class : null),
+		Quiz.class,
 		PingVCmd.class,
 		CombineTalismans.class,
 		MakeAncientAdena.class,

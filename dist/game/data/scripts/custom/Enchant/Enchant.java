@@ -14,7 +14,7 @@ import l2r.gameserver.network.serverpackets.ExBrExtraUserInfo;
 import l2r.gameserver.network.serverpackets.InventoryUpdate;
 import l2r.gameserver.network.serverpackets.UserInfo;
 
-public final class Enchant extends Quest
+public class Enchant extends Quest
 {
 	public static final Logger _log = Logger.getLogger(Enchant.class.getName());
 	
@@ -246,7 +246,7 @@ public final class Enchant extends Quest
 			player.sendMessage("Something went wrong. Are equiped with the item?");
 			return drawHtml("Error Enchant", "<center>Something went wrong.<br>Are equiped with the item?</center>", enchantType);
 		}
-		
+		else
 		{
 			String content = "<center>" + "Not enough <font color=\"FF7200\">Golden Coin Event</font>!<br>";
 			
@@ -267,11 +267,17 @@ public final class Enchant extends Quest
 	
 	private L2ItemInstance getItemToEnchant(L2PcInstance player, int armorType)
 	{
+		L2ItemInstance itemInstance = null;
 		L2ItemInstance parmorInstance = player.getInventory().getPaperdollItem(armorType);
 		
 		if ((parmorInstance != null) && (parmorInstance.getLocationSlot() == armorType))
 		{
+			itemInstance = parmorInstance;
 			
+			if (itemInstance != null)
+			{
+				return itemInstance;
+			}
 		}
 		
 		return null;

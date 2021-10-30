@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+    <question id = "1" ask = "Quel type Bijoux Drop Baium" answer1 = "Necklace" answer2 = "Ring" answer3 = "Earring" correct = "2" />
+    <question id = "2" ask = "Comment s'appel l'admin" answer1 = "Bellatrix" answer2 = "Roberta" answer3 = "Jo" correct = "1" />
+    <question id = "3" ask = "Quel Recompense donne le tvt" answer1 = "Codex" answer2 = "Coin" answer3 = "EventCoin" correct = "3" />
+</list>

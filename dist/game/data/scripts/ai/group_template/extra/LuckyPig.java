@@ -119,6 +119,12 @@ public final class LuckyPig extends AbstractNpcAI
 		9552, 9553, 9554, 9555, 9556, 9557
 	};
 	//@formatter:on
+	private final int Gold_Wingless_Lucky_Pig_Level_80_Drop_Id[] =
+	{
+		14680,
+		14681,
+		21579
+	};
 	
 	public LuckyPig()
 	{
@@ -168,7 +174,7 @@ public final class LuckyPig extends AbstractNpcAI
 								adenaCount += adena;
 							}
 							
-							if ((adenaCount > 0) && (adenaCount < 50000000))
+							if ((adenaCount > 0) && (adenaCount < 20000000))
 							{
 								L2Npc pig = null;
 								int luckyLvl = npc.getVariables().getInt("isLucky", 0);
@@ -183,7 +189,7 @@ public final class LuckyPig extends AbstractNpcAI
 								}
 								npc.deleteMe();
 							}
-							else if (adenaCount >= 50000000)
+							else if (adenaCount >= 20000000)
 							{
 								L2Npc pig = null;
 								int luckyLvl = npc.getVariables().getInt("isLucky", 0);
@@ -237,7 +243,7 @@ public final class LuckyPig extends AbstractNpcAI
 		switch (npc.getId())
 		{
 			case Wingless_Lucky_Pig:
-				if (Rnd.get(1000) < 500)
+				if (Rnd.get(1000) < 800)// <--change drop item, if you put 1000 is 100%. Now is set do 80%
 				{
 					Random rnd = new Random();
 					int randomQuantity = 0;
@@ -263,8 +269,11 @@ public final class LuckyPig extends AbstractNpcAI
 				break;
 			case Golden_Wingless_Lucky_Pig:
 			{
-				if (Rnd.get(1000) < 700)
+				if (Rnd.get(1000) < 700)// <--change drop item, if you put 1000 is 100%. Now is set do 70%
 				{
+					Random rnd = new Random();
+					int randomQuantity = 0;
+					int randomDrop = 0;
 					switch (npc.getVariables().getInt("isLucky", 0))
 					{
 						case 52:
@@ -274,7 +283,9 @@ public final class LuckyPig extends AbstractNpcAI
 							npc.dropItem(player, 14679, 1);
 							break;
 						case 80:
-							npc.dropItem(player, 14680, 1);
+							randomDrop = rnd.nextInt(Gold_Wingless_Lucky_Pig_Level_80_Drop_Id.length);
+							randomQuantity = getRandom(2);
+							npc.dropItem(player, Gold_Wingless_Lucky_Pig_Level_80_Drop_Id[randomDrop], randomQuantity);
 							break;
 					}
 				}
@@ -349,7 +360,7 @@ public final class LuckyPig extends AbstractNpcAI
 		}
 		catch (Exception e)
 		{
-		
+			
 		}
 		
 		return null;
