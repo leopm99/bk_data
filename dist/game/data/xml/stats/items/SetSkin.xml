@@ -87,14 +87,14 @@
 		<set name="immediate_effect" val="true" />
 	</item>	
 	<item id="32013" type="Armor" name="Swimwear D">
-		<set name="icon" val="BranchSys3.icon1.g_co_swimsuit_event_04" />
+		<set name="icon" val="BranchSys3.g_co_sf_underwear_01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 	</item>	
 	<item id="32014" type="Armor" name="Swimwear E">
-		<set name="icon" val="BranchSys3.icon1.g_co_swimsuit_event_05" />
+		<set name="icon" val="BranchSys3.g_co_sf_underwear_01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="alldress" />

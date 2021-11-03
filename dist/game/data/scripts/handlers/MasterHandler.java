@@ -310,6 +310,7 @@ import handlers.voicedcommandhandlers.PremiumVCmd;
 import handlers.voicedcommandhandlers.PvpZoneVCmd;
 import handlers.voicedcommandhandlers.Quiz;
 import handlers.voicedcommandhandlers.RepairVCmd;
+import handlers.voicedcommandhandlers.SiegeManagerCmd;
 import handlers.voicedcommandhandlers.TeleportsVCmd;
 import handlers.voicedcommandhandlers.Wedding;
 
@@ -669,6 +670,7 @@ public class MasterHandler
 		OpenAtod.class,
 		(Config.L2JMOD_ALLOW_WEDDING ? Wedding.class : null),
 		(GetRewardVoteSystemConfigs.ENABLE_VOTE_SYSTEM ? RewardVote.class : null),
+		(Config.ENABLE_SIEGE_CASTLE_MANAGER ? SiegeManagerCmd.class : null),
 	};
 	
 	private void loadHandlers(IHandler<?, ?> handler, Class<?>[] classes)

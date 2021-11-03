@@ -48,19 +48,19 @@ public class QuizEvent
 	private static int _questionNumber = 3;
 	
 	// The Item ID of the reward
-	private static int _rewardID = 57;
+	private static int _rewardID = 9627;
 	
 	// The ammount of the reward
-	private static int _rewardCount = 1000;
+	private static int _rewardCount = 1;
 	
 	// Wait for the first event after the server start (in seconds)
-	private static int _initWait = 3600;
+	private static int _initWait = 300;
 	
 	// Time for answer the question (in seconds)
-	private static int _answerTime = 60;
+	private static int _answerTime = 30;
 	
-	// Time between two event (in seconds)
-	private static int _betweenTime = 18000;
+	// Time between two event (2 hours in seconds)
+	private static int _betweenTime = 7200;
 	
 	public QuizEvent()
 	{

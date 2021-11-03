@@ -109,7 +109,7 @@ public class PremiumVCmd implements IVoicedCommandHandler
 				
 				StringBuilder html3 = new StringBuilder("<html><body><title>Premium Account Details</title><center>");
 				html3.append("<table>");
-				html3.append("<tr><td><center>Thank you for supporting <font color=\"00FF00\">L][ Sunrise</font>.<br></td></tr>");
+				html3.append("<tr><td><center>Thank you for supporting <font color=\"00FF00\">L][ BK</font>.<br></td></tr>");
 				html3.append("<tr><td><center>Account Type:<font color=\"LEVEL\"> Premium<br></font></td></tr>");
 				html3.append("<tr><td>Rate EXP: <font color=\"LEVEL\">x" + Math.round(PremiumServiceConfigs.PREMIUM_RATE_XP) + " (+" + Math.round(PremiumServiceConfigs.PREMIUM_RATE_XP - Config.RATE_XP) + ")<br1></font></td></tr>");
 				html3.append("<tr><td>Rate SP: <font color=\"LEVEL\">x" + Math.round(PremiumServiceConfigs.PREMIUM_RATE_SP) + " (+" + Math.round(PremiumServiceConfigs.PREMIUM_RATE_SP - Config.RATE_SP) + ")<br1></font></td></tr>");
