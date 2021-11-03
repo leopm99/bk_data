@@ -29,41 +29,23 @@
 	</cloak>
 	<cloak number="10" id="59802" name="Duelist	Cloak">
 		<price id="57" count="500000000" />
-	</cloak>
-	<cloak number="11" id="59803" name="Baratheon Cloak">
+	</cloak>	
+	<cloak number="11" id="59807" name="Airchip	Cloak">
 		<price id="57" count="500000000" />
 	</cloak>
-	<cloak number="12" id="59804" name="Stark Cloak">
+	<cloak number="12" id="59808" name="Black Panter">
+		<price id="57" count="500000000" />
+	</cloak>		
+	<cloak number="13" id="59811" name="Hero White Cloak">
 		<price id="57" count="500000000" />
 	</cloak>
-	<cloak number="13" id="59805" name="Lannister Cloak">
+	<cloak number="14" id="59812" name="Hero Black Cloak">
 		<price id="57" count="500000000" />
 	</cloak>
-	<cloak number="14" id="59806" name="Targaryen Cloak">
+	<cloak number="15" id="59813" name="Dragon Cloak">
 		<price id="57" count="500000000" />
 	</cloak>
-	<cloak number="15" id="59807" name="Airchip	Cloak">
-		<price id="57" count="500000000" />
-	</cloak>
-	<cloak number="16" id="59808" name="Black Panter">
-		<price id="57" count="500000000" />
-	</cloak>
-	<cloak number="17" id="59809" name="Angel Cloak">
-		<price id="57" count="500000000" />
-	</cloak>
-	<cloak number="18" id="59810" name="Demon Cloak">
-		<price id="57" count="500000000" />
-	</cloak>
-	<cloak number="19" id="59811" name="Hero White Cloak">
-		<price id="57" count="500000000" />
-	</cloak>
-	<cloak number="20" id="59812" name="Hero Black Cloak">
-		<price id="57" count="500000000" />
-	</cloak>
-	<cloak number="21" id="59813" name="Dragon Cloak">
-		<price id="57" count="500000000" />
-	</cloak>
-	<cloak number="22" id="59814" name="Heaven	Cloak">
+	<cloak number="16" id="59814" name="Heaven	Cloak">
 		<price id="57" count="500000000" />
 	</cloak>
 	

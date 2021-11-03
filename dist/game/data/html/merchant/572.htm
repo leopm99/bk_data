@@ -1,87 +1,53 @@
-<html><body>
-<title>Shop</title>
-<center><br>
-<img src="l2ui.SquareGray" width=270 height=1><br1>
-  <table width="270" bgcolor="151515">
-    <tr>
-      <td valign="top"><center><font color="EBDF6C">L2 Sunrise</font> shop<br>Here you can find everything you want.From armors and weapons to arrows and potions. </center></td>
-    </tr>
-  </table><br1>
-  <img src="l2ui.SquareGray" width=270 height=1><br>
-</center>
-<center><br>
-<table width=270 bgcolor=151515>
-<tr>
-<td width=40><img src="icon.armor_dynasty_platinum_plate_force_i00" width=32 height=32></td>
-<td width=220>
-<table>
-<tr><td><font color="EBDF6C">Armors</font></td></tr>
-<tr><td><font color=b0bccc>Increase your defence.</font></td></tr>
+<html noscrollbar><title>Global Shop</title><body>
+<table cellpadding=1 cellspacing=1 width=289 height=359 background="L2UI_CH3.refinewnd_back_Pattern">
+<tr><td valign="top" align="center">
+
+<!--- Description --->
+<br><br><br>
+<table width=289>
+<tr><td align=center><img src="tut.logo2" width="256" height="60"></td></tr>
+<tr><td height=15></td></tr>
+<tr><td align=center><font color=AE9977 name="hs12">Global Shop</font><br></td></tr>
+<tr><td align=center><font color="FFFFFF">Here we have several special items to trade.</font></td></tr>
+<tr><td align=center><font color="FFFFFF">Please choose an exchange option.</font></td></tr>
+<tr><td height=15></td></tr>
 </table>
-</td>
-<td width=40><button action="bypass -h npc_%objectId%_chat 1" width=32 height=32 back="L2UI_CT1.MiniMap_DF_PlusBtn_Blue_Down" fore="L2UI_CT1.MiniMap_DF_PlusBtn_Blue"></td>
+
+<!--- L2-Day --->
+<table width=289 cellpadding=1 cellspacing=1><center><table><tr></tr></table>
+
+<table>
+<tr>
+    <td align=right><button width=32 height=32 back="icon.etc_stone_gray_i00" fore="icon.etc_stone_gray_i00"></td>
+    <td align=center><button value="Consumable" action="bypass -h npc_%objectId%_multisell 90521" width=160 height=32 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+	<td align=left><button  width=32 height=32 back="icon.etc_reagent_blue_i00" fore="icon.etc_reagent_blue_i00"></td>
 </tr>
 </table>
-<table width=270>
-<tr>
-<td width=40><img src="icon.weapon_recurvethorne_bow_i01" width=32 height=32></td>
-<td width=220>
 <table>
-<tr><td><font color="EBDF6C">Weapons</font></td></tr>
-<tr><td><font color=b0bccc>Increase your attack.</font></td></tr>
-</table>
-</td>
-<td width=40><button action="bypass -h npc_%objectId%_chat 2" width=32 height=32 back="L2UI_CT1.MiniMap_DF_PlusBtn_Blue_Down" fore="L2UI_CT1.MiniMap_DF_PlusBtn_Blue"></td>
+<tr>
+    <td align=right><button width=32 height=32 back="icon.etc_spirit_bullet_green_i00" fore="icon.etc_spirit_bullet_green_i00"></td>
+    <td align=center><button value="Soulshots" action="bypass -h npc_%objectId%_multisell 90522" width=160 height=32 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+	<td align=left><button  width=32 height=32 back="icon.etc_spell_shot_green_i01" fore="icon.etc_spell_shot_green_i01"></td>
 </tr>
 </table>
-<table width=270 bgcolor=151515>
-<tr>
-<td width=40><img src="icon.accessary_aquastone_ring_i00" width=32 height=32></td>
-<td width=220>
 <table>
-<tr><td><font color="EBDF6C">Jewels</font></td></tr>
-<tr><td><font color=b0bccc>Increase your magic defence.</font></td></tr>
-</table>
-</td>
-<td width=40><button action="bypass -h npc_%objectId%_chat 3" width=32 height=32 back="L2UI_CT1.MiniMap_DF_PlusBtn_Blue_Down" fore="L2UI_CT1.MiniMap_DF_PlusBtn_Blue"></td>
+<tr>
+    <td align=right><button width=32 height=32 back="icon.etc_magic_coin_silver_i01" fore="icon.etc_magic_coin_silver_i01"></td>
+    <td align=center><button value="Silver Coin" action="bypass -h npc_%objectId%_multisell 805" width=160 height=32 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+    <td align=right><button width=32 height=32 back="icon.etc_magic_coin_silver_i01" fore="icon.etc_magic_coin_silver_i01"></td>
 </tr>
 </table>
-<table width=270>
-<tr>
-<td width=40><img src="icon.etc_crystal_spice_comp_i00" width=32 height=32></td>
-<td width=220>
 <table>
-<tr><td><font color="EBDF6C">Other</font></td></tr>
-<tr><td><font color=b0bccc>Buy misc staff.</font></td></tr>
-</table>
-</td>
-<td width=40><button action="bypass -h npc_%objectId%_chat 4" width=32 height=32 back="L2UI_CT1.MiniMap_DF_PlusBtn_Blue_Down" fore="L2UI_CT1.MiniMap_DF_PlusBtn_Blue"></td>
+<tr>
+    <td align=right><button width=32 height=32 back="icon.etc_lump_yellow_i00" fore="icon.etc_lump_yellow_i00"></td>
+    <td align=center><button value="Exchange" action="bypass -h npc_%objectId%_multisell 846" width=160 height=32 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+	<td align=left><button  width=32 height=32 back="icon.etc_adena_i00" fore="icon.etc_adena_i00"></td>
 </tr>
 </table>
-<table width=270 bgcolor=151515>
-<tr>
-<td width=40><img src="icon.etc_earth_crystal_1_i00" width=32 height=32></td>
-<td width=220>
-<table>
-<tr><td><font color="EBDF6C">Vote shop</font></td></tr>
-<tr><td><font color=b0bccc>Use your vote coins to buy staff.</font></td></tr>
-</table>
-</td>
-<td width=40><button action="bypass -h npc_%objectId%_chat 5" width=32 height=32 back="L2UI_CT1.MiniMap_DF_PlusBtn_Blue_Down" fore="L2UI_CT1.MiniMap_DF_PlusBtn_Blue"></td>
-</tr>
-</table>
-<table width=270>
-<tr>
-<td width=40><img src="icon.etc_crystal_spice_blessed_i00" width=32 height=32></td>
-<td width=220>
-<table>
-<tr><td><font color="EBDF6C">Bank</font></td></tr>
-<tr><td><font color=b0bccc>Change your coins or sell items.</font></td></tr>
-</table>
-</td>
-<td width=40><button action="bypass -h npc_%objectId%_chat 6" width=32 height=32 back="L2UI_CT1.MiniMap_DF_PlusBtn_Blue_Down" fore="L2UI_CT1.MiniMap_DF_PlusBtn_Blue"></td>
-</tr>
-</table>
-</center>
-</body>
-</html>
+
+<tr><td height=25></td></tr>
+</table></center>
+
+
+
+</body></html>
